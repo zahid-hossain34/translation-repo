@@ -1,44 +1,28 @@
 {
-  "items": [
-    {
-      "title": "Qu'est-ce que les MACHINES GEN 1?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
+  "faq": {
+    "title": {
+      "1": "Qu'est-ce que sont les MACHINES DE GÉNÉRATION 1 ?",
+      "2": "Qu'est-ce que sont les MACHINES DE GÉNÉRATION 2 ?",
+      "3": "Qu'est-ce que sont les MACHINES DE GÉNÉRATION 3 ?",
+      "4": "FAQ aléatoire",
+      "5": "FAQ aléatoire",
+      "6": "FAQ aléatoire",
+      "7": "FAQ aléatoire",
+      "8": "FAQ aléatoire",
+      "9": "FAQ aléatoire",
+      "10": "FAQ aléatoire"
     },
-    {
-      "title": "Qu'est-ce que les MACHINES GEN 2?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor."
-    },
-    {
-      "title": "Qu'est-ce que les MACHINES GEN 3?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula. Morbi viverra accumsan semper. Morbi id ullamcorper dui, at efficitur dolor."
+    "description": {
+      "1": "Les machines de génération 1 désignent la première génération d'ordinateurs développée dans les années 1940 et au début des années 1950, caractérisée par l'utilisation de tubes à vide pour la circuiterie et de tambours magnétiques pour la mémoire. Ces machines étaient volumineuses, coûteuses et consommaient beaucoup d'énergie, mais elles ont ouvert la voie à la technologie informatique moderne.",
+      "2": "Les machines de génération 2 désignent la deuxième génération d'ordinateurs développée à la fin des années 1950 et au début des années 1960, caractérisée par l'utilisation de transistors pour la circuiterie et de mémoire à tores magnétiques pour le stockage. Ces machines étaient plus petites, plus rapides et plus fiables que leurs prédécesseurs, et elles ont introduit des fonctionnalités telles que le traitement par lots et les systèmes d'exploitation.",
+      "3": "Les machines de génération 3 désignent la troisième génération d'ordinateurs développée dans les années 1960 et 1970, caractérisée par l'utilisation de circuits intégrés pour la circuiterie et de mémoire à semi-conducteurs pour le stockage. Ces machines étaient encore plus petites, plus rapides et plus fiables que celles de la deuxième génération, et elles ont introduit des fonctionnalités telles que le partage de temps et la mémoire virtuelle.",
+      "4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula.",
+      "5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula.",
+      "6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula.",
+      "7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula.",
+      "8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula.",
+      "9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula.",
+      "10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     }
-  ]
+  }
 }
