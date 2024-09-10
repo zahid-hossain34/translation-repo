@@ -1,44 +1,44 @@
 {
-  "faq": {
-    "0": {
+  "faq": [
+    {
       "title": "Was sind GEN 1 MASCHINEN?",
       "description": "Generation-1-Maschinen beziehen sich auf die erste Generation von Computern, die in den 1940er und frühen 1950er Jahren entwickelt wurden. Sie zeichneten sich durch die Verwendung von Vakuumröhren für die Schaltung und magnetische Trommeln für den Speicher aus. Diese Maschinen waren sperrig, teuer und verbrauchten viel Strom, aber sie ebneten den Weg für moderne Computertechnologie."
     },
-    "1": {
+    {
       "title": "Was sind GEN 2 MASCHINEN?",
       "description": "Generation-2-Maschinen beziehen sich auf die zweite Generation von Computern, die in den späten 1950er und frühen 1960er Jahren entwickelt wurden. Sie zeichneten sich durch die Verwendung von Transistoren für die Schaltung und magnetische Kernspeicher für die Speicherung aus. Diese Maschinen waren kleiner, schneller und zuverlässiger als ihre Vorgänger und führten Funktionen wie Stapelverarbeitung und Betriebssysteme ein."
     },
-    "2": {
+    {
       "title": "Was sind GEN 3 MASCHINEN?",
       "description": "Generation-3-Maschinen beziehen sich auf die dritte Generation von Computern, die in den 1960er und 1970er Jahren entwickelt wurden. Sie zeichneten sich durch die Verwendung von integrierten Schaltkreisen für die Schaltung und Halbleiterspeicher für die Speicherung aus. Diese Maschinen waren noch kleiner, schneller und zuverlässiger als die Maschinen der zweiten Generation und führten Funktionen wie Zeiteinteilung und virtuellen Speicher ein."
     },
-    "3": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "4": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "5": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "6": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "7": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "8": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "9": {
+    {
       "title": "Zufällige FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     }
-  }
+  ]
 }
