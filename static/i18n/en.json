@@ -1,5 +1,5 @@
 {
-  "faq": [
+  "faq": {
     "0": {
       "title": "What are GEN 1 MACHINES?",
       "description": "Generation 1 machines refer to the first generation of computers developed during the 1940s and early 1950s, \ncharacterized by their use of vacuum tubes for circuitry and magnetic drums for memory. These machines were bulky, expensive, and consumed a lot of power, but they paved the way for modern computing technology."
@@ -40,5 +40,5 @@
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     }
-  ]
+  }
 }
