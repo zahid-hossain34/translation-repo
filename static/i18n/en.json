@@ -1,44 +1,44 @@
 {
-  "faq": {
-    "0": {
+  "faq": [
+    {
       "title": "What are GEN 1 MACHINES?",
       "description": "Generation 1 machines refer to the first generation of computers developed during the 1940s and early 1950s, \ncharacterized by their use of vacuum tubes for circuitry and magnetic drums for memory. These machines were bulky, expensive, and consumed a lot of power, but they paved the way for modern computing technology."
     },
-    "1": {
+    {
       "title": "What are GEN 2 MACHINES?",
       "description": "Generation 2 machines refer to the second generation of computers developed during the late 1950s and early 1960s, \ncharacterized by their use of transistors for circuitry and magnetic core memory for storage. These machines were smaller, faster, and more reliable than their predecessors, and they introduced features such as batch processing and operating systems."
     },
-    "2": {
+    {
       "title": "What are GEN 3 MACHINES?",
       "description": "Generation 3 machines refer to the third generation of computers developed during the 1960s and 1970s, \ncharacterized by their use of integrated circuits for circuitry and semiconductor memory for storage. These machines were even smaller, faster, and more reliable than second-generation machines, and they introduced features such as time-sharing and virtual memory."
     },
-    "3": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "4": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "5": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "6": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "7": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "8": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "9": {
+    {
       "title": "Random FAQ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     }
-  }
+  ]
 }
