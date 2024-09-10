@@ -1,44 +1,44 @@
 {
-  "faq": {
-    "0": {
+  "faq": [
+    {
       "title": "¿Qué son las MÁQUINAS DE GENERACIÓN 1?",
       "description": "Las máquinas de generación 1 se refieren a la primera generación de computadoras desarrollada durante los años 1940 y principios de los años 1950, caracterizadas por el uso de tubos de vacío para la circuitería y tambores magnéticos para la memoria. Estas máquinas eran voluminosas, costosas y consumían mucha energía, pero allanaron el camino para la tecnología informática moderna."
     },
-    "1": {
+    {
       "title": "¿Qué son las MÁQUINAS DE GENERACIÓN 2?",
       "description": "Las máquinas de generación 2 se refieren a la segunda generación de computadoras desarrollada a finales de los años 1950 y principios de los años 1960, caracterizadas por el uso de transistores para la circuitería y memoria de núcleo magnético para el almacenamiento. Estas máquinas eran más pequeñas, más rápidas y más confiables que sus predecesoras, e introdujeron características como el procesamiento por lotes y los sistemas operativos."
     },
-    "2": {
+    {
       "title": "¿Qué son las MÁQUINAS DE GENERACIÓN 3?",
       "description": "Las máquinas de generación 3 se refieren a la tercera generación de computadoras desarrollada durante los años 1960 y 1970, caracterizadas por el uso de circuitos integrados para la circuitería y memoria de semiconductores para el almacenamiento. Estas máquinas eran aún más pequeñas, rápidas y confiables que las de la segunda generación, e introdujeron características como el tiempo compartido y la memoria virtual."
     },
-    "3": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "4": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "5": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "6": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "7": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "8": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     },
-    "9": {
+    {
       "title": "Pregunta frecuente aleatoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
     }
-  }
+  ]
 }
