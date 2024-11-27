@@ -1,44 +1,28 @@
 {
-  "faq": [
-    {
-      "title": "Cosa sono le MACCHINE DI GENERAZIONE 1?",
-      "description": "Le macchine di generazione 1 si riferiscono alla prima generazione di computer sviluppata durante gli anni '40 e all'inizio degli anni '50, caratterizzata dall'uso di tubi al vuoto per la circuiteria e tamburi magnetici per la memoria. Queste macchine erano ingombranti, costose e consumavano molta energia, ma hanno aperto la strada alla tecnologia informatica moderna."
-    },
-    {
-      "title": "Cosa sono le MACCHINE DI GENERAZIONE 2?",
-      "description": "Le macchine di generazione 2 si riferiscono alla seconda generazione di computer sviluppata alla fine degli anni '50 e all'inizio degli anni '60, caratterizzata dall'uso di transistor per la circuiteria e memoria a nuclei magnetici per lo storage. Queste macchine erano più piccole, più veloci e più affidabili dei loro predecessori e hanno introdotto funzionalità come il batch processing e i sistemi operativi."
-    },
-    {
-      "title": "Cosa sono le MACCHINE DI GENERAZIONE 3?",
-      "description": "Le macchine di generazione 3 si riferiscono alla terza generazione di computer sviluppata negli anni '60 e '70, caratterizzata dall'uso di circuiti integrati per la circuiteria e memoria a semiconduttore per lo storage. Queste macchine erano ancora più piccole, più veloci e più affidabili rispetto a quelle della seconda generazione e hanno introdotto funzionalità come il time-sharing e la memoria virtuale."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Domanda frequente casuale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    }
-  ]
+    "releaseNotes": [
+        {
+            "title": "Rilascio di novembre 2024",
+            "version": "Version: 4.9.0.0",
+            "date": "November 04, 2024",
+            "summary": "Ecco le novità di questa versione:",
+            "features": [
+                {
+                    "title": "Promemoria di manutenzione ora disponibili per i dispositivi Lite",
+                    "descriptions": "<p>Ora qualsiasi macchina connessa, comprese quelle con Lite Telemetry, può inviare promemoria di manutenzione quando viene raggiunta una soglia per le ore di pulizia. Gli utenti possono anche esportare un report CSV dei promemoria di manutenzione.</p>"
+                },
+                {
+                    "title": "Note di rilascio visualizzabili nel portale Iris",
+                    "descriptions": "<p>Quando c'è un aggiornamento al portale, una notifica verrà visualizzata nel menu. Fai clic sull'icona del punto interrogativo per andare alla scheda Novità e visualizzare i dettagli della release.</p>"
+                },
+                {
+                    "title": "Miglioramento delle notifiche degli avvisi",
+                    "descriptions": "<p>Le notifiche di avviso nuove o non lette sono ora indicate da un punto rosso per una migliore visibilità.</p>"
+                },
+                {
+                    "title": "Correzioni fornite",
+                    "descriptions": "<ol><li>Abbiamo risolto un problema per cui gli utenti nei sottogruppi di Home Depot vedevano una pagina Batteria vuota invece dei dati della macchina. Ora, gli utenti possono visualizzare tutti i dati della batteria per le macchine Home Depot nel loro sottogruppo.</li></ol>"
+                }
+            ]
+        }
+    ]
 }
