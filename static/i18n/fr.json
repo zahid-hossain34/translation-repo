@@ -1,44 +1,28 @@
 {
-  "faq": [
-    {
-      "title": "Qu'est-ce que sont les MACHINES DE GÉNÉRATION 1 ?",
-      "description": "Les machines de génération 1 désignent la première génération d'ordinateurs développée dans les années 1940 et au début des années 1950, caractérisée par l'utilisation de tubes à vide pour la circuiterie et de tambours magnétiques pour la mémoire. Ces machines étaient volumineuses, coûteuses et consommaient beaucoup d'énergie, mais elles ont ouvert la voie à la technologie informatique moderne."
-    },
-    {
-      "title": "Qu'est-ce que sont les MACHINES DE GÉNÉRATION 2 ?",
-      "description": "Les machines de génération 2 désignent la deuxième génération d'ordinateurs développée à la fin des années 1950 et au début des années 1960, caractérisée par l'utilisation de transistors pour la circuiterie et de mémoire à tores magnétiques pour le stockage. Ces machines étaient plus petites, plus rapides et plus fiables que leurs prédécesseurs, et elles ont introduit des fonctionnalités telles que le traitement par lots et les systèmes d'exploitation."
-    },
-    {
-      "title": "Qu'est-ce que sont les MACHINES DE GÉNÉRATION 3 ?",
-      "description": "Les machines de génération 3 désignent la troisième génération d'ordinateurs développée dans les années 1960 et 1970, caractérisée par l'utilisation de circuits intégrés pour la circuiterie et de mémoire à semi-conducteurs pour le stockage. Ces machines étaient encore plus petites, plus rapides et plus fiables que celles de la deuxième génération, et elles ont introduit des fonctionnalités telles que le partage de temps et la mémoire virtuelle."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "FAQ aléatoire",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    }
-  ]
+    "releaseNotes": [
+        {
+            "title": "Sortie en novembre 2024",
+            "version": "Version: 4.9.0.0",
+            "date": "November 04, 2024",
+            "summary": "Voici les nouveautés de cette version:",
+            "features": [
+                {
+                    "title": "Rappels de maintenance désormais disponibles pour les appareils Lite",
+                    "descriptions": "<p>Désormais, n'importe quelle machine connectée, y compris celles dotées de la télémétrie Lite, peut envoyer des rappels de maintenance lorsqu'un seuil d'heures de nettoyage est atteint. Les utilisateurs peuvent également exporter un rapport CSV des rappels de maintenance.</p>"
+                },
+                {
+                    "title": "Notes de publication consultables sur le portail Iris",
+                    "descriptions": "<p>Lorsqu'une mise à jour est disponible sur le portail, une notification s'affiche dans le menu. Cliquez sur l'icône en forme de point d'interrogation pour accéder à l'onglet Nouveautés et afficher les détails de la version.</p>"
+                },
+                {
+                    "title": "Amélioration des notifications d'alertes",
+                    "descriptions": "<p>Les notifications d'alerte non lues ou nouvelles sont désormais indiquées par un point rouge pour une meilleure visibilité.</p>"
+                },
+                {
+                    "title": "Correctifs fournis",
+                    "descriptions": "<ol><li>Nous avons corrigé un problème où les utilisateurs des sous-groupes Home Depot voyaient une page Batterie vide au lieu des données de la machine. Désormais, les utilisateurs peuvent afficher toutes les données de batterie des machines Home Depot de leur sous-groupe.</li></ol>"
+                }
+            ]
+        }
+    ]
 }
