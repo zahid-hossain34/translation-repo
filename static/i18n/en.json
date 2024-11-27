@@ -1,44 +1,28 @@
 {
-  "faq": [
-    {
-      "title": "What are GEN 1 MACHINES?",
-      "description": "Generation 1 machines refer to the first generation of computers developed during the 1940s and early 1950s, \ncharacterized by their use of vacuum tubes for circuitry and magnetic drums for memory. These machines were bulky, expensive, and consumed a lot of power, but they paved the way for modern computing technology."
-    },
-    {
-      "title": "What are GEN 2 MACHINES?",
-      "description": "Generation 2 machines refer to the second generation of computers developed during the late 1950s and early 1960s, \ncharacterized by their use of transistors for circuitry and magnetic core memory for storage. These machines were smaller, faster, and more reliable than their predecessors, and they introduced features such as batch processing and operating systems."
-    },
-    {
-      "title": "What are GEN 3 MACHINES?",
-      "description": "Generation 3 machines refer to the third generation of computers developed during the 1960s and 1970s, \ncharacterized by their use of integrated circuits for circuitry and semiconductor memory for storage. These machines were even smaller, faster, and more reliable than second-generation machines, and they introduced features such as time-sharing and virtual memory."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    },
-    {
-      "title": "Random FAQ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula velit augue. In arcu dui, lacinia at posuere sed, semper vitae ligula."
-    }
-  ]
+    "releaseNotes": [
+        {
+            "title": "November 2024 Release",
+            "version": "Version: 4.9.0.0",
+            "date": "November 04, 2024",
+            "summary": "Here's what's new in this release:",
+            "features": [
+                {
+                    "title": "Maintenance Reminders now available for Lite Devices",
+                    "descriptions": "<p>Now any connected machine, including those with Lite Telemetry, can send maintenance reminders when a threshold for cleaning hours is met. Users can also export a CSV report of maintenance reminders.</p>"
+                },
+                {
+                    "title": "Release Notes viewable in the Iris portal",
+                    "descriptions": "<p>When there is an update to the portal, a notification will show in the menu. Click the question mark icon to navigate to the What's New tab to view details of the release.</p>"
+                },
+                {
+                    "title": "Alert Notification Enhancement",
+                    "descriptions": "<p>Unread or new alert notifications are now indicated by a red dot for improved visibility.</p>"
+                },
+                {
+                    "title": "Fixes Provided",
+                    "descriptions": "<ol><li>We fixed an issue where users in Home Depot sub-groups saw a blank Battery page instead of machine data. Now, users can view all battery data for Home Depot machines in their sub-group.</li></ol>"
+                }
+            ]
+        }
+    ]
 }
