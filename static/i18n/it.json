@@ -3,7 +3,7 @@
         {
             "title": "Rilascio di novembre 2024",
             "version": "Versione: 4.9.0.0",
-            "date": "Novembre 04, 2024",
+            "date": "04 novembre 2024",
             "summary": "Ecco le novità di questa versione:",
             "features": [
                 {
@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correzioni fornite",
-                    "descriptions": "<ol><li>Abbiamo risolto un problema per cui gli utenti nei sottogruppi di Home Depot vedevano una pagina Batteria vuota invece dei dati della macchina. Ora, gli utenti possono visualizzare tutti i dati della batteria per le macchine Home Depot nel loro sottogruppo.</li></ol>"
+                    "descriptions": "<p>Abbiamo risolto un problema per cui gli utenti nei sottogruppi di Home Depot vedevano una pagina Batteria vuota invece dei dati della macchina. Ora, gli utenti possono visualizzare tutti i dati della batteria per le macchine Home Depot nel loro sottogruppo.</p>"
                 }
             ]
         }
