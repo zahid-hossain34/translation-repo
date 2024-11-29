@@ -2,9 +2,9 @@
     "releaseNotes": [
         {
             "title": "Sortie en novembre 2024",
-            "version": "Version: 4.9.0.0",
+            "version": "Quoi de neuf - Version 4.9.0.0",
             "date": "4 novembre 2024",
-            "summary": "Voici les nouveautés de cette version:",
+            "summary": "Voici les nouveautés de cette version :",
             "features": [
                 {
                     "title": "Rappels de maintenance désormais disponibles pour les appareils Lite",
@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correctifs fournis",
-                    "descriptions": "<ol><li>Nous avons corrigé un problème où les utilisateurs des sous-groupes Home Depot voyaient une page Batterie vide au lieu des données de la machine. Désormais, les utilisateurs peuvent afficher toutes les données de batterie des machines Home Depot de leur sous-groupe.</li></ol>"
+                    "descriptions": "<p>Nous avons corrigé un problème où les utilisateurs des sous-groupes Home Depot voyaient une page Batterie vide au lieu des données de la machine. Désormais, les utilisateurs peuvent afficher toutes les données de batterie des machines Home Depot de leur sous-groupe.</p>"
                 }
             ]
         }
