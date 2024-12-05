@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Fixes Provided",
-                    "descriptions": "<p>We fixed an issue where users in Home Depot sub-groups saw a blank Battery page instead of machine data. Now, users can view all battery data for Home Depot machines in their sub-group.</p>"
+                    "descriptions": "<p>We fixed an issue where some sub-groups saw a blank Battery page without data. Those users can now see their data in the Battery page.</p>"
                 }
             ]
         }
