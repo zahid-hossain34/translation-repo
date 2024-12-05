@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Bereitgestellte Fehlerbehebungen",
-                    "descriptions": "<p>Wir haben ein Problem behoben, bei dem Benutzer in Home Depot-Untergruppen eine leere Batterieseite anstelle von Maschinendaten sahen. Jetzt können Benutzer alle Batteriedaten für Home Depot-Maschinen in ihrer Untergruppe anzeigen.</p>"
+                    "descriptions": "<p>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</p>"
                 }
             ]
         }
