@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correcciones proporcionadas",
-                    "descriptions": "<p>Solucionamos un problema en el que los usuarios de los subgrupos de Home Depot veían una página de Batería en blanco en lugar de los datos de la máquina. Ahora, los usuarios pueden ver todos los datos de la batería de las máquinas de Home Depot en su subgrupo.</p>"
+                    "descriptions": "<p>Solucionamos un problema por el cual algunos subgrupos veían una página de Batería en blanco sin datos. Esos usuarios ahora pueden ver sus datos en la página Batería.</p>"
                 }
             ]
         }
