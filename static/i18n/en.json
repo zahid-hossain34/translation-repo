@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Fixes Provided",
-                    "descriptions": "<p>We fixed an issue where some sub-groups saw a blank Battery page without data. Those users can now see their data in the Battery page.</p>"
+                    "descriptions": "<ol type='a'><li>We fixed an issue where some sub-groups saw a blank Battery page without data. Those users can now see their data in the Battery page</li><li>We fixed an issue where Cleaning Hourmeter for some machines was not updating.</li></ol>"
                 }
             ]
         }
