@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correzioni fornite",
-                    "descriptions": "<p>Abbiamo risolto un problema per cui alcuni sottogruppi vedevano una pagina della batteria vuota senza dati. Questi utenti ora possono vedere i propri dati nella pagina Batteria.</p>"
+                    "descriptions": "<ol type='a'><li>Abbiamo risolto un problema per cui alcuni sottogruppi vedevano una pagina della batteria vuota senza dati. Questi utenti ora possono vedere i propri dati nella pagina Batteria.</li><li>Abbiamo risolto un problema per cui il contaore di pulizia di alcune macchine non si aggiornava.</li></ol>"
                 }
             ]
         }
