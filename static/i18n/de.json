@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Bereitgestellte Fehlerbehebungen",
-                    "descriptions": "<p>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</p>"
+                    "descriptions": "<ol type='a'><li>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</li><li>Wir haben ein Problem behoben, bei dem der Reinigungsstundenzähler für einige Maschinen nicht aktualisiert wurde.</li></ol>"
                 }
             ]
         }
