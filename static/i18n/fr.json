@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correctifs fournis",
-                    "descriptions": "<p>Nous avons résolu un problème où certains sous-groupes voyaient une page de batterie vierge sans données. Ces utilisateurs peuvent désormais voir leurs données sur la page Batterie.</p>"
+                    "descriptions": "<ol type='a'><li>Nous avons résolu un problème où certains sous-groupes voyaient une page de batterie vierge sans données. Ces utilisateurs peuvent désormais voir leurs données sur la page Batterie.</li><li>Nous avons résolu un problème où le compteur horaire de nettoyage de certaines machines n'était pas mis à jour.</li></ol>"
                 }
             ]
         }
