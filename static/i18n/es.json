@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correcciones proporcionadas",
-                    "descriptions": "<ol type='a'><li>Solucionamos un problema por el cual algunos subgrupos veían una página de Batería en blanco sin datos. Esos usuarios ahora pueden ver sus datos en la página Batería.</li><li>Solucionamos un problema por el cual el contador de horas de limpieza de algunas máquinas no se actualizaba.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Solucionamos un problema por el cual algunos subgrupos veían una página de Batería en blanco sin datos. Esos usuarios ahora pueden ver sus datos en la página Batería.</li><li>Solucionamos un problema en el que el medidor de horas de limpieza no se actualizaba para algunas máquinas</li></ol>"
                 }
             ]
         }
