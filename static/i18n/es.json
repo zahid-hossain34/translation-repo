@@ -12,7 +12,7 @@
                 },
                 {
                     "title": "Expansión de filas de tabla y retención de estado",
-                    "descriptions": "<ul style='list-style-type:disc'><li>Los usuarios ahora pueden ampliar el número de elementos por página de 8 a 64.</li><li>La configuración de elementos por página seleccionada se conserva al navegar a otra página y regresar.</li></ul>"
+                    "descriptions": "<ul style="list-style-type:disc"><li>Los usuarios ahora pueden ampliar el número de elementos por página de 8 a 64.</li><li>La configuración de elementos por página seleccionada se conserva al navegar a otra página y regresar.</li></ul>"
                 },
                 {
                     "title": "Correcciones proporcionadas",
