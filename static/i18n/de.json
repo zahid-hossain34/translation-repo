@@ -12,7 +12,7 @@
                 },
                 {
                     "title": "Tabellenzeilenerweiterung und Statusbeibehaltung",
-                    "descriptions": "<ul style="list-style-type:disc"><li>Benutzer können jetzt die Anzahl der Elemente pro Seite von 8 auf 64 erweitern.</li><li>Die ausgewählte Einstellung „Elemente pro Seite“ bleibt beim Navigieren zu einer anderen Seite und beim Zurückkehren erhalten.</li></ul>"
+                    "descriptions": "<ol type='a'><li>Benutzer können jetzt die Anzahl der Elemente pro Seite von 8 auf 64 erweitern.</li><li>Die ausgewählte Einstellung „Elemente pro Seite“ bleibt beim Navigieren zu einer anderen Seite und beim Zurückkehren erhalten.</li></ol>"
                 },
                 {
                     "title": "Bereitgestellte Fehlerbehebungen",

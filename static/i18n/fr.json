@@ -12,7 +12,7 @@
                 },
                 {
                     "title": "Extension des lignes du tableau et conservation de l'état",
-                    "descriptions": "<ul style="list-style-type:disc"><li>Les utilisateurs peuvent désormais augmenter le nombre d'éléments par page de 8 à 64.</li><li>Le paramètre d'éléments sélectionnés par page est conservé lors de la navigation vers une autre page et du retour.</li></ul>"
+                    "descriptions": "<ol type='a'><li>Les utilisateurs peuvent désormais augmenter le nombre d'éléments par page de 8 à 64.</li><li>Le paramètre d'éléments sélectionnés par page est conservé lors de la navigation vers une autre page et du retour.</li></ol>"
                 },
                 {
                     "title": "Correctifs fournis",
