@@ -1,6 +1,26 @@
 {
     "releaseNotes": [
         {
+            "title": "Rilascio di marzo 2025",
+            "version": "Versione 5.0.0.0",
+            "date": "25 marzo 2025",
+            "summary": "Ecco le novità di questa versione:",
+            "features": [
+                {
+                    "title": "Numero di macchine più elevato",
+                    "descriptions": "<p>Ora supportiamo un numero maggiore di macchine per gli utenti interni.</p>"
+                },
+                {
+                    "title": "Espansione delle righe della tabella e mantenimento dello stato",
+                    "descriptions": "<ul><li>Gli utenti possono ora aumentare il numero di elementi per pagina da 8 a 64.</li><li>L'impostazione degli elementi per pagina selezionati viene mantenuta quando si passa a un'altra pagina e si torna indietro.</li></ul>"
+                },
+                {
+                    "title": "Correzioni fornite",
+                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Amministrazione visualizzavano conteggi di utenti negativi.</li><li>La casella di controllo 'Seleziona tutto' per Attributi macchina, Attributi utente e Funzionalità ora funziona correttamente e non rimane più disabilitata a intermittenza.</li><li>È stato risolto un problema per cui l'assegnazione di un gruppo di grandi dimensioni, ad esempio tutte le macchine di telemetria, causava una richiesta errata nella pagina Panoramica.</li><li>È stato risolto un problema per cui la selezione di un filtro temporale di 6 mesi nelle pagine Panoramica, Durata e Batteria generava una richiesta errata.</li><li>Risolto un problema per cui il grafico di runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>Risolta una discrepanza per cui le ore decimali erano errate tra i valori Propel Time nella pagina di utilizzo giornaliero e il relativo report via e-mail.</li><li>L'orario di addebito per le singole date nella pagina di utilizzo ora visualizza i dati con due cifre decimali.</li><li>È stato risolto un problema per cui l'e-mail contenente i report PDF sull'utilizzo e sul runtime non veniva inviata ai clienti nell'ambiente di produzione.</li><li>È stato risolto un problema per cui la finestra del filtro rimaneva visibile dopo aver navigato tra diverse pagine.</li><li>È stato risolto un problema nella pagina Posizione per cui, in modalità orizzontale sui dispositivi mobili, la mappa veniva visualizzata in un modo che rendeva difficile lo scorrimento, impedendo l'accesso alla tabella della posizione.</li></ol>"
+                }
+            ]
+        },
+        {
             "title": "Rilascio di dicembre 2024",
             "version": "Versione 4.9.0.0",
             "date": "18 dicembre 2024",
@@ -21,26 +41,6 @@
                 {
                     "title": "Correzioni fornite",
                     "descriptions": "<ol type='a'><li>Abbiamo risolto un problema per cui alcuni sottogruppi vedevano una pagina della batteria vuota senza dati. Questi utenti ora possono vedere i propri dati nella pagina Batteria.</li><li>Abbiamo risolto un problema per cui il contatore delle ore di pulizia non si aggiornava per alcune macchine.</li></ol>"
-                }
-            ]
-        },
-        {
-            "title": "Rilascio di marzo 2025",
-            "version": "Versione 5.0.0.0",
-            "date": "25 marzo 2025",
-            "summary": "Ecco le novità di questa versione:",
-            "features": [
-                {
-                    "title": "Numero di macchine più elevato",
-                    "descriptions": "<p>Ora supportiamo un numero maggiore di macchine per gli utenti interni.</p>"
-                },
-                {
-                    "title": "Espansione delle righe della tabella e mantenimento dello stato",
-                    "descriptions": "<ul><li>Gli utenti possono ora aumentare il numero di elementi per pagina da 8 a 64.</li><li>L'impostazione degli elementi per pagina selezionati viene mantenuta quando si passa a un'altra pagina e si torna indietro.</li></ul>"
-                },
-                {
-                    "title": "Correzioni fornite",
-                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Amministrazione visualizzavano conteggi di utenti negativi.</li><li>La casella di controllo 'Seleziona tutto' per Attributi macchina, Attributi utente e Funzionalità ora funziona correttamente e non rimane più disabilitata a intermittenza.</li><li>È stato risolto un problema per cui l'assegnazione di un gruppo di grandi dimensioni, ad esempio tutte le macchine di telemetria, causava una richiesta errata nella pagina Panoramica.</li><li>È stato risolto un problema per cui la selezione di un filtro temporale di 6 mesi nelle pagine Panoramica, Durata e Batteria generava una richiesta errata.</li><li>Risolto un problema per cui il grafico di runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>Risolta una discrepanza per cui le ore decimali erano errate tra i valori Propel Time nella pagina di utilizzo giornaliero e il relativo report via e-mail.</li><li>L'orario di addebito per le singole date nella pagina di utilizzo ora visualizza i dati con due cifre decimali.</li><li>È stato risolto un problema per cui l'e-mail contenente i report PDF sull'utilizzo e sul runtime non veniva inviata ai clienti nell'ambiente di produzione.</li><li>È stato risolto un problema per cui la finestra del filtro rimaneva visibile dopo aver navigato tra diverse pagine.</li><li>È stato risolto un problema nella pagina Posizione per cui, in modalità orizzontale sui dispositivi mobili, la mappa veniva visualizzata in un modo che rendeva difficile lo scorrimento, impedendo l'accesso alla tabella della posizione.</li></ol>"
                 }
             ]
         }

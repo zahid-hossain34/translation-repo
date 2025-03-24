@@ -1,6 +1,26 @@
 {
     "releaseNotes": [
         {
+            "title": "Version März 2025",
+            "version": "Version 5.0.0.0",
+            "date": "25. März 2025",
+            "summary": "Dies sind die Neuerungen in dieser Version:",
+            "features": [
+                {
+                    "title": "Höhere Maschinenanzahl",
+                    "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl für interne Benutzer.</p>"
+                },
+                {
+                    "title": "Tabellenzeilenerweiterung und Statusbeibehaltung",
+                    "descriptions": "<ul><li>Benutzer können jetzt die Anzahl der Elemente pro Seite von 8 auf 64 erweitern.</li><li>Die ausgewählte Einstellung „Elemente pro Seite“ bleibt beim Navigieren zu einer anderen Seite und beim Zurückkehren erhalten.</li></ul>"
+                },
+                {
+                    "title": "Bereitgestellte Fehlerbehebungen",
+                    "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem Benutzergruppen auf der Registerkarte „Admin“ negative Benutzerzahlen anzeigten.</li><li>Das Kontrollkästchen „Alles auswählen“ für Maschinenattribute, Benutzerattribute und Funktionen funktioniert jetzt ordnungsgemäß und bleibt nicht mehr zeitweise deaktiviert.</li><li>Es wurde ein Problem behoben, bei dem die Zuweisung einer großen Gruppe, beispielsweise aller Telemetriemaschinen, eine fehlerhafte Anfrage auf der Übersichtsseite verursachte.</li><li>Ein Problem wurde behoben, bei dem die Auswahl eines 6-Monats-Zeitfilters auf den Seiten „Übersicht“, „Laufzeit“ und „Batterie“ zu einer fehlerhaften Anfrage führte.</li><li>Es wurde ein Problem behoben, bei dem das Laufzeitdiagramm nach dem Anwenden des Maschinenfilters nicht korrekt aktualisiert wurde.</li><li>Eine Diskrepanz wurde behoben, bei der die Dezimalstunden zwischen den Antriebszeitwerten auf der Seite „Tägliche Nutzung“ und dem zugehörigen E-Mail-Bericht nicht übereinstimmten.</li><li>Die Ladezeit für einzelne Daten auf der Nutzungsseite zeigt jetzt Daten mit zwei Dezimalstellen an.</li><li>Ein Problem wurde behoben, bei dem die E-Mail mit den PDF-Berichten zu Nutzung und Laufzeit nicht an Kunden in der Produktionsumgebung gesendet werden konnte.</li><li>Ein Problem wurde behoben, bei dem das Filterfenster nach der Rücknavigation über verschiedene Seiten sichtbar blieb.</li><li>Ein Problem auf der Standortseite wurde behoben, bei dem die Karte im Querformat auf Mobilgeräten so angezeigt wurde, dass das Scrollen schwierig war und kein Zugriff auf die Standorttabelle möglich war.</li></ol>"
+                }
+            ]
+        },
+        {
             "title": "Version vom Dezember 2024",
             "version": "Version 4.9.0.0",
             "date": "18. Dezember 2024",
@@ -21,26 +41,6 @@
                 {
                     "title": "Bereitgestellte Fehlerbehebungen",
                     "descriptions": "<ol type='a'><li>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</li><li>Wir haben ein Problem behoben, bei dem der Reinigungsstundenzähler für einige Maschinen nicht aktualisiert wurde.</li></ol>"
-                }
-            ]
-        },
-        {
-            "title": "Version März 2025",
-            "version": "Version 5.0.0.0",
-            "date": "25. März 2025",
-            "summary": "Dies sind die Neuerungen in dieser Version:",
-            "features": [
-                {
-                    "title": "Höhere Maschinenanzahl",
-                    "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl für interne Benutzer.</p>"
-                },
-                {
-                    "title": "Tabellenzeilenerweiterung und Statusbeibehaltung",
-                    "descriptions": "<ul><li>Benutzer können jetzt die Anzahl der Elemente pro Seite von 8 auf 64 erweitern.</li><li>Die ausgewählte Einstellung „Elemente pro Seite“ bleibt beim Navigieren zu einer anderen Seite und beim Zurückkehren erhalten.</li></ul>"
-                },
-                {
-                    "title": "Bereitgestellte Fehlerbehebungen",
-                    "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem Benutzergruppen auf der Registerkarte „Admin“ negative Benutzerzahlen anzeigten.</li><li>Das Kontrollkästchen „Alles auswählen“ für Maschinenattribute, Benutzerattribute und Funktionen funktioniert jetzt ordnungsgemäß und bleibt nicht mehr zeitweise deaktiviert.</li><li>Es wurde ein Problem behoben, bei dem die Zuweisung einer großen Gruppe, beispielsweise aller Telemetriemaschinen, eine fehlerhafte Anfrage auf der Übersichtsseite verursachte.</li><li>Ein Problem wurde behoben, bei dem die Auswahl eines 6-Monats-Zeitfilters auf den Seiten „Übersicht“, „Laufzeit“ und „Batterie“ zu einer fehlerhaften Anfrage führte.</li><li>Es wurde ein Problem behoben, bei dem das Laufzeitdiagramm nach dem Anwenden des Maschinenfilters nicht korrekt aktualisiert wurde.</li><li>Eine Diskrepanz wurde behoben, bei der die Dezimalstunden zwischen den Antriebszeitwerten auf der Seite „Tägliche Nutzung“ und dem zugehörigen E-Mail-Bericht nicht übereinstimmten.</li><li>Die Ladezeit für einzelne Daten auf der Nutzungsseite zeigt jetzt Daten mit zwei Dezimalstellen an.</li><li>Ein Problem wurde behoben, bei dem die E-Mail mit den PDF-Berichten zu Nutzung und Laufzeit nicht an Kunden in der Produktionsumgebung gesendet werden konnte.</li><li>Ein Problem wurde behoben, bei dem das Filterfenster nach der Rücknavigation über verschiedene Seiten sichtbar blieb.</li><li>Ein Problem auf der Standortseite wurde behoben, bei dem die Karte im Querformat auf Mobilgeräten so angezeigt wurde, dass das Scrollen schwierig war und kein Zugriff auf die Standorttabelle möglich war.</li></ol>"
                 }
             ]
         }

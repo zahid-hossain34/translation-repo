@@ -1,6 +1,26 @@
 {
     "releaseNotes": [
         {
+            "title": "Lanzamiento de marzo de 2025",
+            "version": "Versión 5.0.0.0",
+            "date": "25 de marzo de 2025",
+            "summary": "Estas son las novedades de esta versión:",
+            "features": [
+                {
+                    "title": "Mayor número de máquinas",
+                    "descriptions": "<p>Ahora se admite un mayor número de máquinas para usuarios internos.</p>"
+                },
+                {
+                    "title": "Expansión de filas de tabla y retención de estado",
+                    "descriptions": "<ul><li>Los usuarios ahora pueden ampliar el número de elementos por página de 8 a 64.</li><li>La configuración de elementos por página seleccionada se conserva al navegar a otra página y regresar.</li></ul>"
+                },
+                {
+                    "title": "Correcciones proporcionadas",
+                    "descriptions": "<ol type='a'><li>Se solucionó un problema por el cual los grupos de usuarios en la pestaña Administrador mostraban un número de usuarios negativo.</li><li>La casilla de verificación 'Seleccionar todo' para Atributos de máquina, Atributos de usuario y Características ahora funciona correctamente y ya no permanece deshabilitada de forma intermitente.</li><li>Se solucionó un problema por el cual la asignación de un grupo grande, como todas las máquinas de telemetría, causaba una solicitud incorrecta en la página de resumen.</li><li>Se solucionó un problema que provocaba una solicitud incorrecta al seleccionar un filtro de 6 meses en las páginas Resumen, Autonomía y Batería.</li><li>Se solucionó un problema que provocaba que el gráfico de autonomía no se actualizara correctamente tras aplicar el filtro de la máquina.</li><li>Se solucionó una discrepancia donde los decimales de las horas no coincidían con los valores de tiempo de propulsión en la página de uso diario y su informe por correo electrónico.</li><li>El tiempo de carga para cada fecha en la página de uso ahora muestra datos con dos decimales.</li><li>Se solucionó un problema por el cual el correo electrónico con los informes de uso y tiempo de ejecución en PDF no se enviaba a los clientes en el entorno de producción.</li><li>Se solucionó un problema por el cual la ventana de filtro permanecía visible después de navegar por diferentes páginas.</li><li>Se solucionó un problema en la página de ubicación donde, en modo horizontal en dispositivos móviles, el mapa se mostraba de una manera que dificultaba el desplazamiento, impidiendo el acceso a la tabla de ubicación.</li></ol>"
+                }
+            ]
+        },
+        {
             "title": "Lanzamiento en diciembre de 2024",
             "version": "Versión 4.9.0.0",
             "date": "18 de diciembre de 2024",
@@ -21,26 +41,6 @@
                 {
                     "title": "Correcciones proporcionadas",
                     "descriptions": "<ol type='a'><li>Solucionamos un problema por el cual algunos subgrupos veían una página de Batería en blanco sin datos. Esos usuarios ahora pueden ver sus datos en la página Batería.</li><li>Solucionamos un problema en el que el medidor de horas de limpieza no se actualizaba para algunas máquinas</li></ol>"
-                }
-            ]
-        },
-        {
-            "title": "Lanzamiento de marzo de 2025",
-            "version": "Versión 5.0.0.0",
-            "date": "25 de marzo de 2025",
-            "summary": "Estas son las novedades de esta versión:",
-            "features": [
-                {
-                    "title": "Mayor número de máquinas",
-                    "descriptions": "<p>Ahora se admite un mayor número de máquinas para usuarios internos.</p>"
-                },
-                {
-                    "title": "Expansión de filas de tabla y retención de estado",
-                    "descriptions": "<ul><li>Los usuarios ahora pueden ampliar el número de elementos por página de 8 a 64.</li><li>La configuración de elementos por página seleccionada se conserva al navegar a otra página y regresar.</li></ul>"
-                },
-                {
-                    "title": "Correcciones proporcionadas",
-                    "descriptions": "<ol type='a'><li>Se solucionó un problema por el cual los grupos de usuarios en la pestaña Administrador mostraban un número de usuarios negativo.</li><li>La casilla de verificación 'Seleccionar todo' para Atributos de máquina, Atributos de usuario y Características ahora funciona correctamente y ya no permanece deshabilitada de forma intermitente.</li><li>Se solucionó un problema por el cual la asignación de un grupo grande, como todas las máquinas de telemetría, causaba una solicitud incorrecta en la página de resumen.</li><li>Se solucionó un problema que provocaba una solicitud incorrecta al seleccionar un filtro de 6 meses en las páginas Resumen, Autonomía y Batería.</li><li>Se solucionó un problema que provocaba que el gráfico de autonomía no se actualizara correctamente tras aplicar el filtro de la máquina.</li><li>Se solucionó una discrepancia donde los decimales de las horas no coincidían con los valores de tiempo de propulsión en la página de uso diario y su informe por correo electrónico.</li><li>El tiempo de carga para cada fecha en la página de uso ahora muestra datos con dos decimales.</li><li>Se solucionó un problema por el cual el correo electrónico con los informes de uso y tiempo de ejecución en PDF no se enviaba a los clientes en el entorno de producción.</li><li>Se solucionó un problema por el cual la ventana de filtro permanecía visible después de navegar por diferentes páginas.</li><li>Se solucionó un problema en la página de ubicación donde, en modo horizontal en dispositivos móviles, el mapa se mostraba de una manera que dificultaba el desplazamiento, impidiendo el acceso a la tabla de ubicación.</li></ol>"
                 }
             ]
         }
