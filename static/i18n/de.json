@@ -1,48 +1,26 @@
-{
-    "releaseNotes": [
+"releaseNotes": [
         {
-            "title": "December 2024 Release",
+            "title": "Version vom Dezember 2024",
             "version": "Version 4.9.0.0",
-            "date": "December 18, 2024",
-            "summary": "Here's what's new in this release:",
+            "date": "18. Dezember 2024",
+            "summary": "Dies sind die Neuerungen in dieser Version:",
             "features": [
                 {
-                    "title": "Maintenance Reminders now available for Lite Devices",
-                    "descriptions": "<p>Now any connected machine, including those with Lite Telemetry, can send maintenance reminders when a threshold for cleaning hours is met. Users can also export a CSV report of maintenance reminders.</p>"
+                    "title": "Wartungserinnerungen jetzt für Lite-Geräte verfügbar",
+                    "descriptions": "<p>Wartungserinnerungen jetzt für Lite-Geräte verfügbar Jetzt kann jede angeschlossene Maschine, einschließlich derer mit Lite Telemetry, Wartungserinnerungen senden, wenn ein Schwellenwert für Reinigungsstunden erreicht wird. Benutzer können auch einen CSV-Bericht mit Wartungserinnerungen exportieren.</p>"
                 },
                 {
-                    "title": "Release Notes viewable in the Iris portal",
-                    "descriptions": "<p>When there is an update to the portal, a notification will show in the menu. Click the question mark icon to navigate to the What's New tab to view details of the release.</p>"
+                    "title": "Versionshinweise im Iris-Portal sichtbar",
+                    "descriptions": "<p>Wird im Menü eine Benachrichtigung angezeigt. Klicken Sie auf das Fragezeichensymbol, um zur Registerkarte „Neuigkeiten“ zu navigieren und Details zur Version anzuzeigen.</p>"
                 },
                 {
-                    "title": "Alert Notification Enhancement",
-                    "descriptions": "<p>Unread or new alert notifications are now indicated by a red dot for improved visibility.</p>"
+                    "title": "Verbesserung der Warnmeldungsbenachrichtigung",
+                    "descriptions": "<p>Ungelesene oder neue Warnmeldungen werden zur besseren Sichtbarkeit jetzt durch einen roten Punkt gekennzeichnet.</p>"
                 },
                 {
-                    "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>We fixed an issue where some sub-groups saw a blank Battery page without data. Those users can now see their data in the Battery page.</li><li>We fixed an issue where the Cleaning Hour meter was not updating for some machines.</li></ol>"
-                }
-            ]
-        },
-        {
-            "title": "March 2025 Release",
-            "version": "Version 5.0.0.0",
-            "date": "March 25, 2025",
-            "summary": "Here's what's new in this release:",
-            "features": [
-                {
-                    "title": "Higher Machine Count",
-                    "descriptions": "<p>We now support a higher machine count for internal users.</p>"
-                },
-                {
-                    "title": "Table Row Expansion & State Retention",
-                    "descriptions": "<ul><li>Users can now expand the number of items per page from 8 to 64.</li><li>The selected items-per-page setting is retained when navigating to another page and returning.</li></ul>"
-                },
-                {
-                    "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the admin page, 'Select All' checkbox for Machine Attributes, User Attributes, and Features now functions correctly and no longer remains disabled intermittently.</li><li>Fixed an issue where assigning a large group, such as all telemetry machines, caused a bad request on the Overview Page.</li><li>Fixed an issue where selecting a 6-month time filter in the Overview, Runtime, and Battery pages resulted in a bad request.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Fixed a discrepancy where the decimal hours were off between the Propel Time values in the Daily Usage Page and its Email Report.</li><li>The charge time for individual dates on the Usage Page now displays data with two decimal places.</li><li>Fixed an issue where the email containing the Usage and Runtime PDF reports failed to send to customers in the production environment.</li><li>Fixed an issue where the filter window remained visible after navigating back across different pages.</li><li>Fixed an issue in the Location page where, in landscape mode on mobile devices, the map displayed in a way that made scrolling difficult, preventing access to the location table.</li></ol>"
+                    "title": "Bereitgestellte Fehlerbehebungen",
+                    "descriptions": "<ol type='a'><li>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</li><li>Wir haben ein Problem behoben, bei dem der Reinigungsstundenzähler für einige Maschinen nicht aktualisiert wurde.</li></ol>"
                 }
             ]
         }
-    ]
-}
+]
