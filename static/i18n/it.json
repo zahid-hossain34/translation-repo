@@ -12,7 +12,7 @@
                 },
                 {
                     "title": "Espansione delle righe della tabella e mantenimento dello stato",
-                    "descriptions": "<ul><li>Gli utenti possono ora aumentare il numero di elementi per pagina da 8 a 64.</li><li>L'impostazione degli elementi per pagina selezionati viene mantenuta quando si passa a un'altra pagina e si torna indietro.</li></ul>"
+                    "descriptions": "<ul style='list-style-type:disc'><li>Gli utenti possono ora aumentare il numero di elementi per pagina da 8 a 64.</li><li>L'impostazione degli elementi per pagina selezionati viene mantenuta quando si passa a un'altra pagina e si torna indietro.</li></ul>"
                 },
                 {
                     "title": "Correzioni fornite",
