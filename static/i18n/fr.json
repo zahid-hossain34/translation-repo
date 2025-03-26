@@ -2,25 +2,25 @@
     "releaseNotes": [
         {
             "title": "Sortie de mars 2025",
-            "version": "Version 5.0.0.0",
+            "version": "Version 5.0",
             "date": "26 mars 2025",
             "summary": "Voici les nouveautés de cette version :",
             "features": [
                 {
                     "title": "Nombre de machines plus élevé",
-                    "descriptions": "<p>Nous prenons désormais en charge un nombre de machines plus élevé pour les utilisateurs internes.</p>"
+                    "descriptions": "<p>Nous prenons désormais en charge un nombre de machines plus élevé, 15 000, pour les utilisateurs internes.</p>"
                 },
                 {
                     "title": "Extension des lignes de tableau et expérience utilisateur améliorée",
-                    "descriptions": "<p>Les utilisateurs peuvent désormais augmenter le nombre d'éléments affichés par page à 64. L'expérience utilisateur est améliorée grâce à la navigation dans les tableaux imbriqués.</p>"
+                    "descriptions": "<p>Les utilisateurs peuvent désormais augmenter le nombre d'éléments affichés par page à 64. Ils peuvent naviguer dans les tableaux imbriqués avec une expérience utilisateur améliorée.</p>"
                 },
                 {
                     "title": "Mise à niveau de la plateforme",
-                    "descriptions": "<p>Interface utilisateur et infrastructure améliorées pour une sécurité et des performances accrues.</p>"
+                    "descriptions": "<p>Interface utilisateur et infrastructure mises à niveau pour une sécurité et des performances accrues.</p>"
                 },
                 {
                     "title": "Correctifs fournis",
-                    "descriptions": "<ol type='a'><li>Résolution d’un problème où les groupes d’utilisateurs dans l’onglet Admin affichaient des nombres d’utilisateurs négatifs.</li><li>La case à cocher « Sélectionner tout » pour les attributs de la machine, les attributs utilisateur et les fonctionnalités fonctionne désormais correctement et ne reste plus désactivée par intermittence.</li><li>Correction d'un problème où l'attribution d'un grand groupe, tel que toutes les machines de télémétrie, provoquait une mauvaise demande dans les pages Présentation, Durée d'exécution et Batterie.</li><li>Correction d'un problème où le graphique d'exécution ne se mettait pas à jour correctement après l'application du filtre de machine.</li><li>La précision du temps de charge sur la page d'utilisation a été mise à jour pour afficher deux décimales.</li><li>Correction d'un problème où l'e-mail contenant les rapports PDF d'utilisation et d'exécution ne parvenait pas à être envoyé aux clients dans l'environnement de production.</li><li>Correction d'un problème où la fenêtre de filtre restait visible après avoir navigué sur différentes pages.</li><li>Correction d'un problème sur les appareils mobiles en mode paysage, qui empêchait le défilement transparent dans la page de localisation.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Correction d'un problème où les groupes d'utilisateurs de l'onglet Administration affichaient des nombres d'utilisateurs négatifs.</li><li>Dans la page Administration, la case « Tout sélectionner » pour les attributs machine et utilisateur fonctionne de manière cohérente.</li><li>Correction de problèmes où l'affectation d'un grand groupe, comme toutes les machines de télémétrie, provoquait une requête erronée dans les pages Aperçu, Autonomie et Batterie.</li><li>Correction d'un problème où le graphique d'autonomie ne se mettait pas à jour correctement après l'application du filtre machine.</li><li>La précision du temps de charge sur la page d'utilisation a été mise à jour pour afficher deux décimales.</li><li>Correction d'un problème où les rapports PDF d'utilisation et d'exécution n'étaient pas envoyés par e-mail par intermittence.</li><li>Correction d'un problème où la fenêtre de filtre restait visible après un retour en arrière.</li><li>Correction d'un problème sur les appareils mobiles en mode paysage, qui empêchait le défilement fluide de la page Emplacement.</li></ol>"
                 }
             ]
         },

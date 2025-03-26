@@ -2,17 +2,17 @@
     "releaseNotes": [
         {
             "title": "Lanzamiento de marzo de 2025",
-            "version": "Versión 5.0.0.0",
+            "version": "Versión 5.0",
             "date": "26 de marzo de 2025",
             "summary": "Estas son las novedades de esta versión:",
             "features": [
                 {
                     "title": "Mayor número de máquinas",
-                    "descriptions": "<p>Ahora se admite un mayor número de máquinas para usuarios internos.</p>"
+                    "descriptions": "<p>Ahora admitimos un número mayor de máquinas (15 000) para usuarios internos.</p>"
                 },
                 {
                     "title": "Expansión de filas de tabla y experiencia de usuario mejorada",
-                    "descriptions": "<p>Los usuarios ahora pueden ampliar la cantidad de elementos mostrados por página a 64. Pueden navegar por tablas anidadas con una experiencia de usuario mejorada.</p>"
+                    "descriptions": "<p>Los usuarios ahora pueden ampliar el número de elementos mostrados por página a 64. Los usuarios pueden navegar por tablas anidadas con una experiencia de usuario mejorada.</p>"
                 },
                 {
                     "title": "Actualización de la plataforma",
@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Correcciones proporcionadas",
-                    "descriptions": "<ol type='a'><li>Se solucionó un problema por el cual los grupos de usuarios en la pestaña Administrador mostraban un número de usuarios negativo.</li><li>La casilla de verificación 'Seleccionar todo' para Atributos de máquina, Atributos de usuario y Características ahora funciona correctamente y ya no permanece deshabilitada de forma intermitente.</li><li>Se solucionó un problema en el que la asignación de un grupo grande, como todas las máquinas de telemetría, causaba una solicitud incorrecta en las páginas Descripción general, Tiempo de ejecución y Batería.</li><li>Se solucionó un problema que provocaba que el gráfico de autonomía no se actualizara correctamente tras aplicar el filtro de la máquina.</li><li>La precisión del tiempo de carga en la página de uso se actualizó para mostrar dos decimales.</li><li>Se solucionó un problema por el cual el correo electrónico con los informes de uso y tiempo de ejecución en PDF no se enviaba a los clientes en el entorno de producción.</li><li>Se solucionó un problema por el cual la ventana de filtro permanecía visible después de navegar por diferentes páginas.</li><li>Se solucionó un problema en el modo horizontal de los dispositivos móviles, que impedía un desplazamiento fluido en la página Ubicación.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Se solucionó un problema por el cual los grupos de usuarios en la pestaña Administrador mostraban un número negativo de usuarios.</li><li>En la página Administrador, la casilla 'Seleccionar todo' para Atributos de máquina y Atributos de usuario funciona correctamente.</li><li>Se solucionaron problemas por los cuales la asignación de un grupo grande, como todas las máquinas de telemetría, causaba una solicitud incorrecta en las páginas Resumen, Tiempo de ejecución y Batería.</li><li>Se solucionó un problema por el cual el gráfico de tiempo de ejecución no se actualizaba correctamente después de aplicar el filtro de máquina.</li><li>La precisión del tiempo de carga en la página de uso se actualizó para mostrar dos decimales.</li><li>Se actualizó la precisión del tiempo de carga en la página de Uso para mostrar dos decimales. Se solucionó un problema por el cual los informes de uso y tiempo de ejecución en PDF no se enviaban por correo electrónico de forma intermitente.</li><li>Se solucionó un problema por el cual la ventana de filtro permanecía visible al retroceder.</li><li>Se solucionó un problema en el modo horizontal de dispositivos móviles que impedía un desplazamiento fluido en la página de ubicación.</li></ol>"
                 }
             ]
         },

@@ -2,13 +2,13 @@
     "releaseNotes": [
         {
             "title": "March 2025 Release",
-            "version": "Version 5.0.0.0",
+            "version": "Version 5.0",
             "date": "March 26, 2025",
             "summary": "Here's what's new in this release:",
             "features": [
                 {
                     "title": "Higher Machine Count",
-                    "descriptions": "<p>We now support a higher machine count for internal users.</p>"
+                    "descriptions": "<p>We now support a higher machine count, 15,000, for internal users.</p>"
                 },
                 {
                     "title": "Table Row Expansion & Enhanced User Experience",
@@ -20,7 +20,7 @@
                 },
                 {
                     "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the Admin page, 'Select All' checkbox for Machine Attributes and User Attributes function consistently.</li><li>Fixed an issue where assigning a large group, such as all telemetry machines, caused a bad request in the Overview, Runtime and Battery pages.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Charge time precision on the Usage Page updated to display two decimal places.</li><li>Fixed an issue where the Usage and Runtime PDF reports intermittently failed to be delivered via email.</li><li>Fixed an issue where the filter window remained visible after navigating back.</li><li>Fixed an issue on mobile devices landscape mode, which prevented seamless scrolling in the Location page.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the Admin page, 'Select All' checkbox for Machine Attributes and User Attributes function consistently.</li><li>Fixed issues where assigning a large group, such as all telemetry machines, caused a bad request in the Overview, Runtime and Battery pages.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Charge time precision on the Usage Page updated to display two decimal places.</li><li>Fixed an issue where the Usage and Runtime PDF reports intermittently failed to be delivered via email.</li><li>Fixed an issue where the filter window remained visible after navigating back.</li><li>Fixed an issue on mobile devices landscape mode, which prevented seamless scrolling in the Location page.</li></ol>"
                 }
             ]
         },

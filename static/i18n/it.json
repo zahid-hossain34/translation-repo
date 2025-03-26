@@ -2,25 +2,25 @@
     "releaseNotes": [
         {
             "title": "Rilascio di marzo 2025",
-            "version": "Versione 5.0.0.0",
+            "version": "Versione 5.0",
             "date": "26 marzo 2025",
             "summary": "Ecco le novità di questa versione:",
             "features": [
                 {
-                    "title": "Numero di macchine più elevato",
-                    "descriptions": "<p>Ora supportiamo un numero maggiore di macchine per gli utenti interni.</p>"
+                    "title": "Conteggio macchine più elevato",
+                    "descriptions": "<p>Ora supportiamo un conteggio macchine più elevato, 15.000, per gli utenti interni.</p>"
                 },
                 {
                     "title": "Espansione delle righe della tabella ed esperienza utente migliorata",
-                    "descriptions": "<p>Gli utenti ora hanno la possibilità di espandere il numero di elementi visualizzati per pagina a 64. Gli utenti possono navigare nelle tabelle nidificate con un'esperienza utente migliorata.</p>"
+                    "descriptions": "<p>Gli utenti ora hanno la possibilità di espandere il numero di elementi visualizzati per pagina a 64. Gli utenti sono in grado di navigare nelle tabelle nidificate con un'esperienza utente migliorata.</p>"
                 },
                 {
                     "title": "Aggiornamento della piattaforma",
-                    "descriptions": "<p>interfaccia utente e infrastruttura aggiornate, per una maggiore sicurezza e prestazioni.</p>"
+                    "descriptions": "<p>Interfaccia utente e infrastruttura aggiornate, per una maggiore sicurezza e prestazioni.</p>"
                 },
                 {
                     "title": "Correzioni fornite",
-                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Amministrazione visualizzavano conteggi di utenti negativi.</li><li>La casella di controllo 'Seleziona tutto' per Attributi macchina, Attributi utente e Funzionalità ora funziona correttamente e non rimane più disabilitata a intermittenza.</li><li>È stato risolto un problema per cui l'assegnazione di un gruppo di grandi dimensioni, ad esempio tutte le macchine di telemetria, causava una richiesta errata nelle pagine Panoramica, Runtime e Batteria.</li><li>Risolto un problema per cui il grafico di runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>La precisione del tempo di carica nella pagina di utilizzo è stata aggiornata per visualizzare due cifre decimali.</li><li>È stato risolto un problema per cui l'e-mail contenente i report PDF sull'utilizzo e sul runtime non veniva inviata ai clienti nell'ambiente di produzione.</li><li>È stato risolto un problema per cui la finestra del filtro rimaneva visibile dopo aver navigato tra diverse pagine.</li><li>Risolto un problema nella modalità orizzontale dei dispositivi mobili, che impediva lo scorrimento fluido nella pagina Posizione.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Admin mostravano conteggi utenti negativi.</li><li>Nella pagina Admin, la casella di controllo 'Seleziona tutto' per Attributi macchina e Attributi utente funziona in modo coerente.</li><li>Risolti i problemi per cui l'assegnazione di un gruppo di grandi dimensioni, come tutte le macchine di telemetria, causava una richiesta errata nelle pagine Panoramica, Runtime e Batteria.</li><li>Risolto un problema per cui il grafico runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>Precisione del tempo di carica nella pagina Utilizzo aggiornata per visualizzare due cifre decimali.</li><li>Risolto un problema per cui i report PDF Utilizzo e Runtime non venivano recapitati via e-mail a intermittenza.</li><li>Risolto un problema per cui la finestra del filtro rimaneva visibile dopo essere tornati indietro.</li><li>Risolto un problema sui dispositivi mobili in modalità orizzontale, che impediva lo scorrimento fluido nella pagina Posizione.</li></ol>"
                 }
             ]
         },
