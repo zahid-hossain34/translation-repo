@@ -3,7 +3,7 @@
         {
             "title": "Rilascio di marzo 2025",
             "version": "Versione 5.0.0.0",
-            "date": "25 marzo 2025",
+            "date": "26 marzo 2025",
             "summary": "Ecco le novità di questa versione:",
             "features": [
                 {
@@ -11,12 +11,16 @@
                     "descriptions": "<p>Ora supportiamo un numero maggiore di macchine per gli utenti interni.</p>"
                 },
                 {
-                    "title": "Espansione delle righe della tabella e mantenimento dello stato",
-                    "descriptions": "<ol type='a'><li>Gli utenti possono ora aumentare il numero di elementi per pagina da 8 a 64.</li><li>L'impostazione degli elementi per pagina selezionati viene mantenuta quando si passa a un'altra pagina e si torna indietro.</li></ol>"
+                    "title": "Espansione delle righe della tabella ed esperienza utente migliorata",
+                    "descriptions": "<p>Gli utenti ora hanno la possibilità di espandere il numero di elementi visualizzati per pagina a 64. Gli utenti sono in grado di navigare nelle tabelle nidificate con un'esperienza utente migliorata.</p>"
+                },
+                {
+                    "title": "Aggiornamento della piattaforma",
+                    "descriptions": "<p>interfaccia utente e infrastruttura aggiornate, per una maggiore sicurezza e prestazioni.</p>"
                 },
                 {
                     "title": "Correzioni fornite",
-                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Amministrazione visualizzavano conteggi di utenti negativi.</li><li>La casella di controllo 'Seleziona tutto' per Attributi macchina, Attributi utente e Funzionalità ora funziona correttamente e non rimane più disabilitata a intermittenza.</li><li>È stato risolto un problema per cui l'assegnazione di un gruppo di grandi dimensioni, ad esempio tutte le macchine di telemetria, causava una richiesta errata nella pagina Panoramica.</li><li>È stato risolto un problema per cui la selezione di un filtro temporale di 6 mesi nelle pagine Panoramica, Durata e Batteria generava una richiesta errata.</li><li>Risolto un problema per cui il grafico di runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>Risolta una discrepanza per cui le ore decimali erano errate tra i valori Propel Time nella pagina di utilizzo giornaliero e il relativo report via e-mail.</li><li>L'orario di addebito per le singole date nella pagina di utilizzo ora visualizza i dati con due cifre decimali.</li><li>È stato risolto un problema per cui l'e-mail contenente i report PDF sull'utilizzo e sul runtime non veniva inviata ai clienti nell'ambiente di produzione.</li><li>È stato risolto un problema per cui la finestra del filtro rimaneva visibile dopo aver navigato tra diverse pagine.</li><li>È stato risolto un problema nella pagina Posizione per cui, in modalità orizzontale sui dispositivi mobili, la mappa veniva visualizzata in un modo che rendeva difficile lo scorrimento, impedendo l'accesso alla tabella della posizione.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Amministrazione visualizzavano conteggi di utenti negativi.</li><li>La casella di controllo 'Seleziona tutto' per Attributi macchina, Attributi utente e Funzionalità ora funziona correttamente e non rimane più disabilitata a intermittenza.</li><li>È stato risolto un problema per cui l'assegnazione di un gruppo di grandi dimensioni, ad esempio tutte le macchine di telemetria, causava una richiesta errata nelle pagine Panoramica, Runtime e Batteria.</li><li>Risolto un problema per cui il grafico di runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>La precisione del tempo di carica nella pagina di utilizzo è stata aggiornata per visualizzare due cifre decimali.</li><li>È stato risolto un problema per cui l'e-mail contenente i report PDF sull'utilizzo e sul runtime non veniva inviata ai clienti nell'ambiente di produzione.</li><li>È stato risolto un problema per cui la finestra del filtro rimaneva visibile dopo aver navigato tra diverse pagine.</li><li>Risolto un problema nella modalità orizzontale dei dispositivi mobili, che impediva lo scorrimento fluido nella pagina Posizione.</li></ol>"
                 }
             ]
         },

@@ -11,12 +11,16 @@
                     "descriptions": "<p>We now support a higher machine count for internal users.</p>"
                 },
                 {
-                    "title": "Table Row Expansion & State Retention",
-                    "descriptions": "<ol type='a'><li>Users can now expand the number of items per page from 8 to 64.</li><li>The selected items-per-page setting is retained when navigating to another page and returning.</li></ol>"
+                    "title": "Table Row Expansion & Enhanced User Experience",
+                    "descriptions": "<p>Users are able to navigate nested tables with an improved user experience.</p>"
+                },
+                {
+                    "title": "Platform Upgrade",
+                    "descriptions": "<p>Upgraded User Interface and infrastructure, for improved security and performance.</p>"
                 },
                 {
                     "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the admin page, 'Select All' checkbox for Machine Attributes, User Attributes, and Features now functions correctly and no longer remains disabled intermittently.</li><li>Fixed an issue where assigning a large group, such as all telemetry machines, caused a bad request on the Overview Page.</li><li>Fixed an issue where selecting a 6-month time filter in the Overview, Runtime, and Battery pages resulted in a bad request.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Fixed a discrepancy where the decimal hours were off between the Propel Time values in the Daily Usage Page and its Email Report.</li><li>The charge time for individual dates on the Usage Page now displays data with two decimal places.</li><li>Fixed an issue where the email containing the Usage and Runtime PDF reports failed to send to customers in the production environment.</li><li>Fixed an issue where the filter window remained visible after navigating back across different pages.</li><li>Fixed an issue in the Location page where, in landscape mode on mobile devices, the map displayed in a way that made scrolling difficult, preventing access to the location table.</li></ol>"
+                    "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the Admin page, 'Select All' checkbox for Machine Attributes and User Attributes function consistently.</li><li>Fixed an issue where assigning a large group, such as all telemetry machines, caused a bad request in the Overview, Runtime and Battery pages.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Charge time precision on the Usage Page updated to display two decimal places.</li><li>Fixed an issue where the Usage and Runtime PDF reports intermittently failed to be delivered via email.</li><li>Fixed an issue where the filter window remained visible after navigating back.</li><li>Fixed an issue on mobile devices landscape mode, which prevented seamless scrolling in the Location page.</li></ol>"
                 }
             ]
         },
