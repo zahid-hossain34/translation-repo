@@ -1,6 +1,30 @@
 {
     "releaseNotes": [
         {
+            "title": "Version Mai 2025",
+            "version": "Version 5.1",
+            "date": "22 Mai, 2025",
+            "summary": "Dies sind die Neuerungen in dieser Version:",
+            "features": [
+                {
+                    "title": "Höhere Maschinenanzahl",
+                    "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl (15.000) für interne Benutzer.</p>"
+                },
+                {
+                    "title": "Automatische Zuweisung zur Telemetriegruppe",
+                    "descriptions": "<p>Tennant-Nutzern mit interner Entwicklerrolle wird automatisch Zugriff auf alle verfügbaren Telemetrie-Rechner gewährt, was die Einrichtung vereinfacht.</p>"
+                },
+                {
+                    "title": "Verbesserung der Benutzeridentifikation",
+                    "descriptions": "<ol type='a'><li>Um die Sichtbarkeit und Rückverfolgbarkeit zu verbessern, werden den Benutzernamen in den Benutzerattributen jetzt Verkaufsnummern angehängt.</li><li>Optimierung des Anmeldebildschirms.</li><li>Das Hintergrundbild des Anmeldebildschirms wurde aktualisiert, um die Ladeleistung zu verbessern und die visuelle Unordnung zu reduzieren.</li><li>Exportfunktionalität optimiert.</li><li>Der Exportvorgang wurde für einen schnelleren Download verbessert.</li></ol>"
+                },
+                {
+                    "title": "Fixes Provided",
+                    "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem die während der Sommerzeit gemeldete durchschnittliche tägliche Reinigungszeit falsch war.</li><li>Ein Problem wurde behoben, bei dem Warnungen und Nutzungsdaten in Laufzeitdiagrammen auch nach dem Entfernen aller Benutzergruppen sichtbar blieben.</li><li>Ein Fehler wurde behoben, der eine fehlerhafte Anfrage zurückgab, wenn einer Maschinengruppe mehr als 2050 Maschinen zugewiesen wurden.</li><li>Ein Problem wurde behoben, bei dem das Deaktivieren des Kontrollkästchens „Scrubbing-Funktion“ während der Funktionsauswahl zu einer fehlerhaften Anfrage führte.</li></ol>"
+                }
+            ]
+        },
+        {
             "title": "Version März 2025",
             "version": "Version 5.0",
             "date": "26. März 2025",

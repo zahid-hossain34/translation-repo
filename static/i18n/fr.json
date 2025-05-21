@@ -1,6 +1,30 @@
 {
     "releaseNotes": [
         {
+            "title": "Sortie de mai 2025",
+            "version": "Version 5.1",
+            "date": "22 mai 2025",
+            "summary": "Voici les nouveautés de cette version :",
+            "features": [
+                {
+                    "title": "Nombre de machines plus élevé",
+                    "descriptions": "<p>Nous prenons désormais en charge un nombre de machines plus élevé, 15 000, pour les utilisateurs internes.</p>"
+                },
+                {
+                    "title": "Affectation automatique au groupe de télémétrie",
+                    "descriptions": "<p>Les utilisateurs du rôle de développeur interne Tennant bénéficient automatiquement d'un accès à toutes les machines de télémétrie disponibles, ce qui simplifie la configuration.</p>"
+                },
+    {
+                    "title": "Amélioration de l'identification de l'utilisateur",
+                    "descriptions": "<ol type='a'><li>Pour améliorer la visibilité et la traçabilité, les numéros de vente sont désormais ajoutés aux noms d'utilisateur dans les attributs utilisateur.</li><li>Optimisation de l'écran de connexion</li><li>Mise à jour de l'image d'arrière-plan de l'écran de connexion pour améliorer les performances de chargement et réduire l'encombrement visuel.</li><li>Fonctionnalité d'exportation optimisée.</li><li>L'opération d'exportation a été améliorée pour un téléchargement plus rapide.</li></ol>"
+                },
+                {
+                    "title": "Correctifs fournis",
+                    "descriptions": "<ol type='a'><li>Correction d'un problème où le temps de nettoyage quotidien moyen signalé pendant l'heure d'été était incorrect.</li><li>Correction d'un problème où les alertes et les données d'utilisation restaient visibles dans les graphiques d'exécution même après la suppression de tous les groupes d'utilisateurs.</li><li>Correction d'un bug qui renvoyait une mauvaise requête lors de l'attribution de plus de 2050 machines à un groupe de machines.</li><li>Résolution d’un problème où la désactivation de la case à cocher « Fonction de nettoyage » lors de la sélection de la fonctionnalité entraînait une mauvaise demande.</li></ol>"
+                }
+            ]
+        },
+        {
             "title": "Sortie de mars 2025",
             "version": "Version 5.0",
             "date": "26 mars 2025",

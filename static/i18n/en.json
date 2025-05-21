@@ -1,6 +1,30 @@
 {
     "releaseNotes": [
         {
+            "title": "May 2025 Release",
+            "version": "Version 5.1",
+            "date": "May 22, 2025",
+            "summary": "Here's what's new in this release:",
+            "features": [
+                {
+                    "title": "Higher Machine Count",
+                    "descriptions": "<p>We now support a higher machine count, 15,000, for internal users.</p>"
+                },
+                {
+                    "title": "Auto-Assignment to Telemetry Group",
+                    "descriptions": "<p>Tennant Internal Dev Role users are automatically assigned access to all available telemetry machines, simplifying setup.</p>"
+                },
+                {
+                    "title": "User Identification Enhancement",
+                    "descriptions": "<ol type='a'><li>To improve visibility and traceability, Sold-To numbers are now appended to usernames in user attributes.</li><li>Login Screen Optimization.</li><li>Updated the login screen background image to improve load performance and reduce visual clutter.</li><li>Export Functionality Optimized.</li><li>Export operation has been enhanced for faster download.</li></ol>"
+                },
+                {
+                    "title": "Fixes Provided",
+                    "descriptions": "<ol type='a'><li>Fixed an issue where the average daily clean time reported over Daylight Savings Time was incorrect.</li><li>Fixed an issue where alerts and usage data remained visible in runtime graphs even after all user groups were removed.</li><li>Fixed a bug that returned a bad request when assigning more than 2050 machines to a machine group.</li><li>Resolved an issue where disabling the “Scrubbing Feature” checkbox during feature selection resulted in a bad request.</li></ol>"
+                }
+            ]
+        },
+        {
             "title": "March 2025 Release",
             "version": "Version 5.0",
             "date": "March 26, 2025",
