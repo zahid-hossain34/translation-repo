@@ -19,7 +19,7 @@
                     "descriptions": "<ol type='a'><li>Per migliorare la visibilità e la tracciabilità, i numeri Sold-To vengono ora aggiunti ai nomi utente negli attributi utente.</li><li>Ottimizzazione della schermata di accesso.</li><li>Aggiornata l'immagine di sfondo della schermata di accesso per migliorare le prestazioni di caricamento e ridurre l'ingombro visivo.</li><li>Funzionalità di esportazione ottimizzata.</li><li>L'operazione di esportazione è stata migliorata per un download più rapido.</li></ol>"
                 },
                 {
-                    "title": "Fixes Provided",
+                    "title": "Correzioni fornite",
                     "descriptions": "<ol type='a'><li>È stato risolto un problema per cui il tempo medio di pulizia giornaliero segnalato durante l'ora legale era errato.</li><li>È stato risolto un problema per cui gli avvisi e i dati di utilizzo rimanevano visibili nei grafici di runtime anche dopo la rimozione di tutti i gruppi di utenti.</li><li>Risolto un bug che restituiva una richiesta errata quando si assegnavano più di 2050 macchine a un gruppo di macchine.</li><li>Risolto un problema per cui la disattivazione della casella di controllo 'Funzionalità di pulizia' durante la selezione delle funzionalità generava una richiesta errata.</li></ol>"
                 }
             ]
