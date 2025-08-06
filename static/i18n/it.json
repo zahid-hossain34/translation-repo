@@ -1,76 +1,112 @@
 {
-    "releaseNotes": [
-         {
-            "title": "Versione di maggio 2025",
-            "version": "Version 5.1",
-            "date": "22 maggio 2025",
-            "summary": "Ecco le novità di questa versione:",
-            "features": [
-                {
-                    "title": "Conteggio macchine più elevato",
-                    "descriptions": "<p>Ora supportiamo un numero maggiore di macchine, 15.000, per gli utenti interni.</p>"
-                },
-                {
-                    "title": "Assegnazione automatica al gruppo di telemetria",
-                    "descriptions": "<p>Agli utenti con ruolo di sviluppatore interno di Tennant viene automaticamente assegnato l'accesso a tutte le macchine di telemetria disponibili, semplificando la configurazione.</p>"
-                },
-                {
-                    "title": "Miglioramento dell'identificazione dell'utente",
-                    "descriptions": "<ol type='a'><li>Per migliorare la visibilità e la tracciabilità, i numeri Sold-To vengono ora aggiunti ai nomi utente negli attributi utente.</li><li>Ottimizzazione della schermata di accesso.</li><li>Aggiornata l'immagine di sfondo della schermata di accesso per migliorare le prestazioni di caricamento e ridurre l'ingombro visivo.</li><li>Funzionalità di esportazione ottimizzata.</li><li>L'operazione di esportazione è stata migliorata per un download più rapido.</li></ol>"
-                },
-                {
-                    "title": "Correzioni fornite",
-                    "descriptions": "<ol type='a'><li>È stato risolto un problema per cui il tempo medio di pulizia giornaliero segnalato durante l'ora legale era errato.</li><li>È stato risolto un problema per cui gli avvisi e i dati di utilizzo rimanevano visibili nei grafici di runtime anche dopo la rimozione di tutti i gruppi di utenti.</li><li>Risolto un bug che restituiva una richiesta errata quando si assegnavano più di 2050 macchine a un gruppo di macchine.</li><li>Risolto un problema per cui la disattivazione della casella di controllo 'Funzionalità di pulizia' durante la selezione delle funzionalità generava una richiesta errata.</li></ol>"
-                }
-            ]
+  "releaseNotes": [
+    {
+      "title": "Rilascio di agosto 2025",
+      "version": "Version 5.2",
+      "date": "6 agosto 2025",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Nuovo filtro “Tecnologia”",
+          "descriptions": "<p>È stato aggiunto un nuovo filtro Tecnologia (Gen 1, Gen 2, Lite, Sconosciuto) nei filtri macchina. Questo attributo viene ora visualizzato in varie tabelle ed è incluso nei file di esportazione per impostazione predefinita.</p>"
         },
         {
-            "title": "Rilascio di marzo 2025",
-            "version": "Versione 5.0",
-            "date": "26 marzo 2025",
-            "summary": "Ecco le novità di questa versione:",
-            "features": [
-                {
-                    "title": "Conteggio macchine più elevato",
-                    "descriptions": "<p>Ora supportiamo un conteggio macchine più elevato, 15.000, per gli utenti interni.</p>"
-                },
-                {
-                    "title": "Espansione delle righe della tabella ed esperienza utente migliorata",
-                    "descriptions": "<p>Gli utenti ora hanno la possibilità di espandere il numero di elementi visualizzati per pagina a 64. Gli utenti sono in grado di navigare nelle tabelle nidificate con un'esperienza utente migliorata.</p>"
-                },
-                {
-                    "title": "Aggiornamento della piattaforma",
-                    "descriptions": "<p>Interfaccia utente e infrastruttura aggiornate, per una maggiore sicurezza e prestazioni.</p>"
-                },
-                {
-                    "title": "Correzioni fornite",
-                    "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Admin mostravano conteggi utenti negativi.</li><li>Nella pagina Admin, la casella di controllo 'Seleziona tutto' per Attributi macchina e Attributi utente funziona in modo coerente.</li><li>Risolti i problemi per cui l'assegnazione di un gruppo di grandi dimensioni, come tutte le macchine di telemetria, causava una richiesta errata nelle pagine Panoramica, Runtime e Batteria.</li><li>Risolto un problema per cui il grafico runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>Il tempo di ricarica nella pagina di utilizzo è stato aggiornato per visualizzare due cifre decimali.</li><li>Risolto un problema per cui i report PDF Utilizzo e Runtime non venivano recapitati via e-mail a intermittenza.</li><li>È stato risolto un problema sui dispositivi mobili che impediva lo scorrimento fluido nella pagina Posizione in modalità orizzontale.</li></ol>"
-                }
-            ]
+          "title": "Gruppi di filtri salvati",
+          "descriptions": "<p>Gli utenti possono ora salvare combinazioni di filtri personalizzati per un utilizzo ripetuto.Questi filtri salvati vengono gestiti indipendentemente dai filtri basati sulla cronologia e consentono un'analisi più rapida e personalizzata nelle varie sessioni.</p>"
         },
         {
-            "title": "Rilascio di dicembre 2024",
-            "version": "Versione 4.9.0.0",
-            "date": "18 dicembre 2024",
-            "summary": "Ecco le novità di questa versione:",
-            "features": [
-                {
-                    "title": "Promemoria di manutenzione ora disponibili per i dispositivi Lite",
-                    "descriptions": "<p>Ora qualsiasi macchina connessa, comprese quelle con Lite Telemetry, può inviare promemoria di manutenzione quando viene raggiunta una soglia per le ore di pulizia. Gli utenti possono anche esportare un report CSV dei promemoria di manutenzione.</p>"
-                },
-                {
-                    "title": "Note di rilascio visualizzabili nel portale Iris",
-                    "descriptions": "<p>Quando c'è un aggiornamento al portale, una notifica verrà visualizzata nel menu. Fai clic sull'icona del punto interrogativo per andare alla scheda Novità e visualizzare i dettagli della release.</p>"
-                },
-                {
-                    "title": "Miglioramento delle notifiche degli avvisi",
-                    "descriptions": "<p>Le notifiche di avviso nuove o non lette sono ora indicate da un punto rosso per una migliore visibilità.</p>"
-                },
-                {
-                    "title": "Correzioni fornite",
-                    "descriptions": "<ol type='a'><li>Abbiamo risolto un problema per cui alcuni sottogruppi vedevano una pagina della batteria vuota senza dati. Questi utenti ora possono vedere i propri dati nella pagina Batteria.</li><li>Abbiamo risolto un problema per cui il contatore delle ore di pulizia non si aggiornava per alcune macchine.</li></ol>"
-                }
-            ]
+          "title": "Applicazione flessibile del filtro",
+          "descriptions": "<p>Ora è possibile applicare i filtri in qualsiasi ordine: non è più necessario sceglierli da sinistra a destra.Le selezioni dei filtri si spostano e non vengono più reimpostate quando si naviga tra le schede.Ciò garantisce la continuità del flusso di lavoro e riduce le azioni ripetitive.</p>"
+        },
+        {
+          "title": "Il filtro “Contaore di pulizia“",
+          "descriptions": "<p>Questo filtro è stato rimosso.Tuttavia, il valore del contatore delle ore di pulizia continuerà a essere visualizzato nelle tabelle dei dati.</p>"
+        },
+        {
+          "title": "Miglioramenti nell'ordine dei campi e delle colonne di esportazione",
+          "descriptions": "<p>I nomi dei campi nei file esportati sono stati aggiornati per maggiore chiarezza e l'ordine delle colonne è stato riallineato per corrispondere alle visualizzazioni delle tabelle nella piattaforma.Queste modifiche promuovono la coerenza tra i dati visualizzati sullo schermo e i report scaricati.</p>"
+        },
+        {
+          "title": "Supporto per dispositivi Track 1101 e 1105",
+          "descriptions": "<p>La piattaforma ora funziona con i nuovi dispositivi Track 1101 e 1105, progettati per le macchine Lite.Abbiamo aggiornato il sistema per gestire questi dispositivi, continuando comunque a supportare pienamente il vecchio Track 1100.</p>"
+        },
+        {
+          "title": "Rilevamento avanzato dello stato del dispositivo Lite",
+          "descriptions": "<p>I dispositivi Lite ora effettuano il check-in periodicamente, indipendentemente dal movimento.In questo modo l'utente sa quando la macchina non è stata utilizzata o se non è riuscita a comunicare.</p>"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Versione di maggio 2025",
+      "version": "Version 5.1",
+      "date": "22 maggio 2025",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Conteggio macchine più elevato",
+          "descriptions": "<p>Ora supportiamo un numero maggiore di macchine, 15.000, per gli utenti interni.</p>"
+        },
+        {
+          "title": "Assegnazione automatica al gruppo di telemetria",
+          "descriptions": "<p>Agli utenti con ruolo di sviluppatore interno di Tennant viene automaticamente assegnato l'accesso a tutte le macchine di telemetria disponibili, semplificando la configurazione.</p>"
+        },
+        {
+          "title": "Miglioramento dell'identificazione dell'utente",
+          "descriptions": "<ol type='a'><li>Per migliorare la visibilità e la tracciabilità, i numeri Sold-To vengono ora aggiunti ai nomi utente negli attributi utente.</li><li>Ottimizzazione della schermata di accesso.</li><li>Aggiornata l'immagine di sfondo della schermata di accesso per migliorare le prestazioni di caricamento e ridurre l'ingombro visivo.</li><li>Funzionalità di esportazione ottimizzata.</li><li>L'operazione di esportazione è stata migliorata per un download più rapido.</li></ol>"
+        },
+        {
+          "title": "Correzioni fornite",
+          "descriptions": "<ol type='a'><li>È stato risolto un problema per cui il tempo medio di pulizia giornaliero segnalato durante l'ora legale era errato.</li><li>È stato risolto un problema per cui gli avvisi e i dati di utilizzo rimanevano visibili nei grafici di runtime anche dopo la rimozione di tutti i gruppi di utenti.</li><li>Risolto un bug che restituiva una richiesta errata quando si assegnavano più di 2050 macchine a un gruppo di macchine.</li><li>Risolto un problema per cui la disattivazione della casella di controllo 'Funzionalità di pulizia' durante la selezione delle funzionalità generava una richiesta errata.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "Rilascio di marzo 2025",
+      "version": "Versione 5.0",
+      "date": "26 marzo 2025",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Conteggio macchine più elevato",
+          "descriptions": "<p>Ora supportiamo un conteggio macchine più elevato, 15.000, per gli utenti interni.</p>"
+        },
+        {
+          "title": "Espansione delle righe della tabella ed esperienza utente migliorata",
+          "descriptions": "<p>Gli utenti ora hanno la possibilità di espandere il numero di elementi visualizzati per pagina a 64. Gli utenti sono in grado di navigare nelle tabelle nidificate con un'esperienza utente migliorata.</p>"
+        },
+        {
+          "title": "Aggiornamento della piattaforma",
+          "descriptions": "<p>Interfaccia utente e infrastruttura aggiornate, per una maggiore sicurezza e prestazioni.</p>"
+        },
+        {
+          "title": "Correzioni fornite",
+          "descriptions": "<ol type='a'><li>Risolto un problema per cui i gruppi di utenti nella scheda Admin mostravano conteggi utenti negativi.</li><li>Nella pagina Admin, la casella di controllo 'Seleziona tutto' per Attributi macchina e Attributi utente funziona in modo coerente.</li><li>Risolti i problemi per cui l'assegnazione di un gruppo di grandi dimensioni, come tutte le macchine di telemetria, causava una richiesta errata nelle pagine Panoramica, Runtime e Batteria.</li><li>Risolto un problema per cui il grafico runtime non si aggiornava correttamente dopo l'applicazione del filtro macchina.</li><li>Il tempo di ricarica nella pagina di utilizzo è stato aggiornato per visualizzare due cifre decimali.</li><li>Risolto un problema per cui i report PDF Utilizzo e Runtime non venivano recapitati via e-mail a intermittenza.</li><li>È stato risolto un problema sui dispositivi mobili che impediva lo scorrimento fluido nella pagina Posizione in modalità orizzontale.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "Rilascio di dicembre 2024",
+      "version": "Versione 4.9.0.0",
+      "date": "18 dicembre 2024",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Promemoria di manutenzione ora disponibili per i dispositivi Lite",
+          "descriptions": "<p>Ora qualsiasi macchina connessa, comprese quelle con Lite Telemetry, può inviare promemoria di manutenzione quando viene raggiunta una soglia per le ore di pulizia. Gli utenti possono anche esportare un report CSV dei promemoria di manutenzione.</p>"
+        },
+        {
+          "title": "Note di rilascio visualizzabili nel portale Iris",
+          "descriptions": "<p>Quando c'è un aggiornamento al portale, una notifica verrà visualizzata nel menu. Fai clic sull'icona del punto interrogativo per andare alla scheda Novità e visualizzare i dettagli della release.</p>"
+        },
+        {
+          "title": "Miglioramento delle notifiche degli avvisi",
+          "descriptions": "<p>Le notifiche di avviso nuove o non lette sono ora indicate da un punto rosso per una migliore visibilità.</p>"
+        },
+        {
+          "title": "Correzioni fornite",
+          "descriptions": "<ol type='a'><li>Abbiamo risolto un problema per cui alcuni sottogruppi vedevano una pagina della batteria vuota senza dati. Questi utenti ora possono vedere i propri dati nella pagina Batteria.</li><li>Abbiamo risolto un problema per cui il contatore delle ore di pulizia non si aggiornava per alcune macchine.</li></ol>"
+        }
+      ]
+    }
+  ]
 }
