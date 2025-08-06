@@ -1,76 +1,112 @@
 {
-    "releaseNotes": [
+  "releaseNotes": [
+    {
+      "title": "Version August 2025",
+      "version": "Version 5.2",
+      "date": "6. August 2025",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
         {
-            "title": "Version Mai 2025",
-            "version": "Version 5.1",
-            "date": "22 Mai, 2025",
-            "summary": "Dies sind die Neuerungen in dieser Version:",
-            "features": [
-                {
-                    "title": "Höhere Maschinenanzahl",
-                    "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl (15.000) für interne Benutzer.</p>"
-                },
-                {
-                    "title": "Automatische Zuweisung zur Telemetriegruppe",
-                    "descriptions": "<p>Tennant-Nutzern mit interner Entwicklerrolle wird automatisch Zugriff auf alle verfügbaren Telemetrie-Rechner gewährt, was die Einrichtung vereinfacht.</p>"
-                },
-                {
-                    "title": "Verbesserung der Benutzeridentifikation",
-                    "descriptions": "<ol type='a'><li>Um die Sichtbarkeit und Rückverfolgbarkeit zu verbessern, werden den Benutzernamen in den Benutzerattributen jetzt Verkaufsnummern angehängt.</li><li>Optimierung des Anmeldebildschirms.</li><li>Das Hintergrundbild des Anmeldebildschirms wurde aktualisiert, um die Ladeleistung zu verbessern und die visuelle Unordnung zu reduzieren.</li><li>Exportfunktionalität optimiert.</li><li>Der Exportvorgang wurde für einen schnelleren Download verbessert.</li></ol>"
-                },
-                {
-                    "title": "Bereitgestellte Fehlerbehebungen",
-                    "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem die während der Sommerzeit gemeldete durchschnittliche tägliche Reinigungszeit falsch war.</li><li>Ein Problem wurde behoben, bei dem Warnungen und Nutzungsdaten in Laufzeitdiagrammen auch nach dem Entfernen aller Benutzergruppen sichtbar blieben.</li><li>Ein Fehler wurde behoben, der eine fehlerhafte Anfrage zurückgab, wenn einer Maschinengruppe mehr als 2050 Maschinen zugewiesen wurden.</li><li>Ein Problem wurde behoben, bei dem das Deaktivieren des Kontrollkästchens „Scrubbing-Funktion“ während der Funktionsauswahl zu einer fehlerhaften Anfrage führte.</li></ol>"
-                }
-            ]
+          "title": "Neuer „Technologie“-Filter",
+          "descriptions": "<p>Unter den Maschinenfiltern wurde ein neuer Technologiefilter (Gen 1, Gen 2, Lite, Unbekannt) hinzugefügt.Dieses Attribut wird jetzt in verschiedenen Tabellen angezeigt und ist standardmäßig in Exportdateien enthalten.</p>"
         },
         {
-            "title": "Version März 2025",
-            "version": "Version 5.0",
-            "date": "26. März 2025",
-            "summary": "Dies sind die Neuerungen in dieser Version:",
-            "features": [
-                {
-                    "title": "Höhere Maschinenanzahl",
-                    "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl (15.000) für interne Nutzer.</p>"
-                },
-                {
-                    "title": "Tabellenzeilenerweiterung und verbesserte Benutzererfahrung",
-                    "descriptions": "<p>Nutzer können jetzt die Anzahl der pro Seite angezeigten Elemente auf 64 erweitern. Die Navigation in verschachtelten Tabellen wird dadurch verbessert.</p>"
-                },
-                {
-                    "title": "Plattform-Upgrade",
-                    "descriptions": "<p>Verbesserte Benutzeroberfläche und Infrastruktur für mehr Sicherheit und Leistung.</p>"
-                },
-                {
-                    "title": "Bereitgestellte Fehlerbehebungen",
-                    "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem Benutzergruppen im Admin-Tab negative Benutzerzahlen anzeigten.</li><li>Auf der Admin-Seite funktioniert das Kontrollkästchen „Alle auswählen“ für Maschinen- und Benutzerattribute nun konsistent.</li><li>Probleme behoben, bei denen die Zuweisung einer großen Gruppe, z. B. aller Telemetriemaschinen, zu fehlerhaften Abfragen auf den Seiten „Übersicht“, „Laufzeit“ und „Akku“ führte.</li><li>Problem behoben, bei dem das Laufzeitdiagramm nach Anwendung des Maschinenfilters nicht korrekt aktualisiert wurde.</li><li>Die Ladezeit auf der Nutzungsseite wurde aktualisiert und zeigt nun zwei Dezimalstellen an.</li><li>Problem behoben, bei dem die PDF-Berichte zu Nutzung und Laufzeit zeitweise nicht per E-Mail zugestellt werden konnten.</li><li>Ein Problem auf Mobilgeräten wurde behoben, das ein nahtloses Scrollen auf der Standortseite im Querformat verhinderte.</li></ol>"
-                }
-            ]
+          "title": "Gespeicherte Filtergruppen",
+          "descriptions": "<p>Benutzer können jetzt benutzerdefinierte Filterkombinationen zur wiederholten Verwendung speichern.Diese gespeicherten Filter werden unabhängig von zeitleistenbasierten Filtern verwaltet und ermöglichen eine schnellere, personalisiertere Analyse über Sitzungen hinweg.</p>"
         },
         {
-            "title": "Version vom Dezember 2024",
-            "version": "Version 4.9.0.0",
-            "date": "18. Dezember 2024",
-            "summary": "Dies sind die Neuerungen in dieser Version:",
-            "features": [
-                {
-                    "title": "Wartungserinnerungen jetzt für Lite-Geräte verfügbar",
-                    "descriptions": "<p>Wartungserinnerungen jetzt für Lite-Geräte verfügbar Jetzt kann jede angeschlossene Maschine, einschließlich derer mit Lite Telemetry, Wartungserinnerungen senden, wenn ein Schwellenwert für Reinigungsstunden erreicht wird. Benutzer können auch einen CSV-Bericht mit Wartungserinnerungen exportieren.</p>"
-                },
-                {
-                    "title": "Versionshinweise im Iris-Portal sichtbar",
-                    "descriptions": "<p>Wird im Menü eine Benachrichtigung angezeigt. Klicken Sie auf das Fragezeichensymbol, um zur Registerkarte „Neuigkeiten“ zu navigieren und Details zur Version anzuzeigen.</p>"
-                },
-                {
-                    "title": "Verbesserung der Warnmeldungsbenachrichtigung",
-                    "descriptions": "<p>Ungelesene oder neue Warnmeldungen werden zur besseren Sichtbarkeit jetzt durch einen roten Punkt gekennzeichnet.</p>"
-                },
-                {
-                    "title": "Bereitgestellte Fehlerbehebungen",
-                    "descriptions": "<ol type='a'><li>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</li><li>Wir haben ein Problem behoben, bei dem der Reinigungsstundenzähler für einige Maschinen nicht aktualisiert wurde.</li></ol>"
-                }
-            ]
+          "title": "Flexible Filteranwendung",
+          "descriptions": "<p>Filter können jetzt in beliebiger Reihenfolge angewendet werden – sie müssen nicht mehr von links nach rechts ausgewählt werden.Filterauswahlen verschieben sich und werden nicht mehr zurückgesetzt, wenn Sie zwischen Registerkarten navigieren.Dies gewährleistet die Kontinuität im Arbeitsablauf und reduziert sich wiederholende Aktionen.</p>"
+        },
+        {
+          "title": "Der Filter „Reinigungsstundenzähler“",
+          "descriptions": "<p>Dieser Filter wurde entfernt.Der Wert des Reinigungsstundenzählers wird jedoch weiterhin in den Datentabellen angezeigt.</p>"
+        },
+        {
+          "title": "Verbesserungen bei der Reihenfolge der Exportfelder und -spalten",
+          "descriptions": "<p>Die Feldnamen in den exportierten Dateien wurden zur besseren Übersichtlichkeit aktualisiert und die Spaltenreihenfolge wurde neu ausgerichtet, um mit den Tabellenansichten in der Plattform übereinzustimmen.Diese Änderungen fördern die Konsistenz zwischen den Daten auf dem Bildschirm und den heruntergeladenen Berichten.</p>"
+        },
+        {
+          "title": "Unterstützung für Track 1101- und 1105-Geräte",
+          "descriptions": "<p>Die Plattform funktioniert jetzt mit den neuen Geräten Track 1101 und 1105, die für Lite-Maschinen entwickelt wurden.Wir haben das System aktualisiert, um diese Geräte zu verarbeiten und gleichzeitig den älteren Track 1100 weiterhin vollständig zu unterstützen.</p>"
+        },
+        {
+          "title": "Verbesserte Lite-Gerätestatuserkennung",
+          "descriptions": "<p>Lite-Geräte melden sich jetzt regelmäßig an, unabhängig von der Bewegung.Dadurch wird sichergestellt, dass der Benutzer weiß, wann die Maschine nicht verwendet wurde oder nicht kommunizieren konnte.</p>"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Version Mai 2025",
+      "version": "Version 5.1",
+      "date": "22 Mai, 2025",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
+        {
+          "title": "Höhere Maschinenanzahl",
+          "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl (15.000) für interne Benutzer.</p>"
+        },
+        {
+          "title": "Automatische Zuweisung zur Telemetriegruppe",
+          "descriptions": "<p>Tennant-Nutzern mit interner Entwicklerrolle wird automatisch Zugriff auf alle verfügbaren Telemetrie-Rechner gewährt, was die Einrichtung vereinfacht.</p>"
+        },
+        {
+          "title": "Verbesserung der Benutzeridentifikation",
+          "descriptions": "<ol type='a'><li>Um die Sichtbarkeit und Rückverfolgbarkeit zu verbessern, werden den Benutzernamen in den Benutzerattributen jetzt Verkaufsnummern angehängt.</li><li>Optimierung des Anmeldebildschirms.</li><li>Das Hintergrundbild des Anmeldebildschirms wurde aktualisiert, um die Ladeleistung zu verbessern und die visuelle Unordnung zu reduzieren.</li><li>Exportfunktionalität optimiert.</li><li>Der Exportvorgang wurde für einen schnelleren Download verbessert.</li></ol>"
+        },
+        {
+          "title": "Bereitgestellte Fehlerbehebungen",
+          "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem die während der Sommerzeit gemeldete durchschnittliche tägliche Reinigungszeit falsch war.</li><li>Ein Problem wurde behoben, bei dem Warnungen und Nutzungsdaten in Laufzeitdiagrammen auch nach dem Entfernen aller Benutzergruppen sichtbar blieben.</li><li>Ein Fehler wurde behoben, der eine fehlerhafte Anfrage zurückgab, wenn einer Maschinengruppe mehr als 2050 Maschinen zugewiesen wurden.</li><li>Ein Problem wurde behoben, bei dem das Deaktivieren des Kontrollkästchens „Scrubbing-Funktion“ während der Funktionsauswahl zu einer fehlerhaften Anfrage führte.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "Version März 2025",
+      "version": "Version 5.0",
+      "date": "26. März 2025",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
+        {
+          "title": "Höhere Maschinenanzahl",
+          "descriptions": "<p>Wir unterstützen jetzt eine höhere Maschinenanzahl (15.000) für interne Nutzer.</p>"
+        },
+        {
+          "title": "Tabellenzeilenerweiterung und verbesserte Benutzererfahrung",
+          "descriptions": "<p>Nutzer können jetzt die Anzahl der pro Seite angezeigten Elemente auf 64 erweitern. Die Navigation in verschachtelten Tabellen wird dadurch verbessert.</p>"
+        },
+        {
+          "title": "Plattform-Upgrade",
+          "descriptions": "<p>Verbesserte Benutzeroberfläche und Infrastruktur für mehr Sicherheit und Leistung.</p>"
+        },
+        {
+          "title": "Bereitgestellte Fehlerbehebungen",
+          "descriptions": "<ol type='a'><li>Ein Problem wurde behoben, bei dem Benutzergruppen im Admin-Tab negative Benutzerzahlen anzeigten.</li><li>Auf der Admin-Seite funktioniert das Kontrollkästchen „Alle auswählen“ für Maschinen- und Benutzerattribute nun konsistent.</li><li>Probleme behoben, bei denen die Zuweisung einer großen Gruppe, z. B. aller Telemetriemaschinen, zu fehlerhaften Abfragen auf den Seiten „Übersicht“, „Laufzeit“ und „Akku“ führte.</li><li>Problem behoben, bei dem das Laufzeitdiagramm nach Anwendung des Maschinenfilters nicht korrekt aktualisiert wurde.</li><li>Die Ladezeit auf der Nutzungsseite wurde aktualisiert und zeigt nun zwei Dezimalstellen an.</li><li>Problem behoben, bei dem die PDF-Berichte zu Nutzung und Laufzeit zeitweise nicht per E-Mail zugestellt werden konnten.</li><li>Ein Problem auf Mobilgeräten wurde behoben, das ein nahtloses Scrollen auf der Standortseite im Querformat verhinderte.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "Version vom Dezember 2024",
+      "version": "Version 4.9.0.0",
+      "date": "18. Dezember 2024",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
+        {
+          "title": "Wartungserinnerungen jetzt für Lite-Geräte verfügbar",
+          "descriptions": "<p>Wartungserinnerungen jetzt für Lite-Geräte verfügbar Jetzt kann jede angeschlossene Maschine, einschließlich derer mit Lite Telemetry, Wartungserinnerungen senden, wenn ein Schwellenwert für Reinigungsstunden erreicht wird. Benutzer können auch einen CSV-Bericht mit Wartungserinnerungen exportieren.</p>"
+        },
+        {
+          "title": "Versionshinweise im Iris-Portal sichtbar",
+          "descriptions": "<p>Wird im Menü eine Benachrichtigung angezeigt. Klicken Sie auf das Fragezeichensymbol, um zur Registerkarte „Neuigkeiten“ zu navigieren und Details zur Version anzuzeigen.</p>"
+        },
+        {
+          "title": "Verbesserung der Warnmeldungsbenachrichtigung",
+          "descriptions": "<p>Ungelesene oder neue Warnmeldungen werden zur besseren Sichtbarkeit jetzt durch einen roten Punkt gekennzeichnet.</p>"
+        },
+        {
+          "title": "Bereitgestellte Fehlerbehebungen",
+          "descriptions": "<ol type='a'><li>Wir haben ein Problem behoben, bei dem einige Untergruppen eine leere Batterieseite ohne Daten sahen. Diese Benutzer können ihre Daten jetzt auf der Batterieseite sehen.</li><li>Wir haben ein Problem behoben, bei dem der Reinigungsstundenzähler für einige Maschinen nicht aktualisiert wurde.</li></ol>"
+        }
+      ]
+    }
+  ]
 }
