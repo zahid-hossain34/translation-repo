@@ -1,76 +1,112 @@
 {
-    "releaseNotes": [
+  "releaseNotes": [
+    {
+      "title": "August 2025 Release",
+      "version": "Version 5.2",
+      "date": "August 6, 2025",
+      "summary": "Here's what's new in this release:",
+      "features": [
         {
-            "title": "May 2025 Release",
-            "version": "Version 5.1",
-            "date": "May 22, 2025",
-            "summary": "Here's what's new in this release:",
-            "features": [
-                {
-                    "title": "Higher Machine Count",
-                    "descriptions": "<p>We now support a higher machine count, 15,000, for internal users.</p>"
-                },
-                {
-                    "title": "Auto-Assignment to Telemetry Group",
-                    "descriptions": "<p>Tennant Internal Dev Role users are automatically assigned access to all available telemetry machines, simplifying setup.</p>"
-                },
-                {
-                    "title": "User Identification Enhancement",
-                    "descriptions": "<ol type='a'><li>To improve visibility and traceability, Sold-To numbers are now appended to usernames in user attributes.</li><li>Login Screen Optimization.</li><li>Updated the login screen background image to improve load performance and reduce visual clutter.</li><li>Export Functionality Optimized.</li><li>Export operation has been enhanced for faster download.</li></ol>"
-                },
-                {
-                    "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>Fixed an issue where the average daily clean time reported over Daylight Savings Time was incorrect.</li><li>Fixed an issue where alerts and usage data remained visible in runtime graphs even after all user groups were removed.</li><li>Fixed a bug that returned a bad request when assigning more than 2050 machines to a machine group.</li><li>Resolved an issue where disabling the “Scrubbing Feature” checkbox during feature selection resulted in a bad request.</li></ol>"
-                }
-            ]
+          "title": "New ‘Technology’ Filter",
+          "descriptions": "<p>A new Technology filter (Gen 1, Gen 2, Lite, Unknown) has been added under machine filters. This attribute is now shown in various tables and is included in export files by default.</p>"
         },
         {
-            "title": "March 2025 Release",
-            "version": "Version 5.0",
-            "date": "March 26, 2025",
-            "summary": "Here's what's new in this release:",
-            "features": [
-                {
-                    "title": "Higher Machine Count",
-                    "descriptions": "<p>We now support a higher machine count, 15,000, for internal users.</p>"
-                },
-                {
-                    "title": "Table Row Expansion & Enhanced User Experience",
-                    "descriptions": "<p>Users now have the ability to expand the numbers of items displayed per page to 64. Users are able to navigate nested tables with an improved user experience.</p>"
-                },
-                {
-                    "title": "Platform Upgrade",
-                    "descriptions": "<p>Upgraded User Interface and infrastructure, for improved security and performance.</p>"
-                },
-                {
-                    "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the Admin page, 'Select All' checkbox for Machine Attributes and User Attributes function consistently.</li><li>Fixed issues where assigning a large group, such as all telemetry machines, caused a bad request in the Overview, Runtime and Battery pages.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Charge time on the Usage Page has been updated to display two decimal places.</li><li>Fixed an issue where the Usage and Runtime PDF reports intermittently failed to be delivered via email.</li><li>Fixed an issue on mobile devices which prevented seamless scrolling in the Location page when in landscape mode.</li></ol>"
-                }
-            ]
+          "title": "Saved Filter Groups",
+          "descriptions": "<p>Users can now save custom filter combinations for repeated use. These saved filters are managed independently of timeline-based filters and enable faster, more personalized analysis across sessions.</p>"
         },
         {
-            "title": "December 2024 Release",
-            "version": "Version 4.9.0.0",
-            "date": "December 18, 2024",
-            "summary": "Here's what's new in this release:",
-            "features": [
-                {
-                    "title": "Maintenance Reminders now available for Lite Devices",
-                    "descriptions": "<p>Now any connected machine, including those with Lite Telemetry, can send maintenance reminders when a threshold for cleaning hours is met. Users can also export a CSV report of maintenance reminders.</p>"
-                },
-                {
-                    "title": "Release Notes viewable in the Iris portal",
-                    "descriptions": "<p>When there is an update to the portal, a notification will show in the menu. Click the question mark icon to navigate to the What's New tab to view details of the release.</p>"
-                },
-                {
-                    "title": "Alert Notification Enhancement",
-                    "descriptions": "<p>Unread or new alert notifications are now indicated by a red dot for improved visibility.</p>"
-                },
-                {
-                    "title": "Fixes Provided",
-                    "descriptions": "<ol type='a'><li>We fixed an issue where some sub-groups saw a blank Battery page without data. Those users can now see their data in the Battery page.</li><li>We fixed an issue where the Cleaning Hour meter was not updating for some machines.</li></ol>"
-                }
-            ]
+          "title": "Flexible Filter Application",
+          "descriptions": "<p>Filters can now be applied in any order - they no longer need to be chosen left to right. Filter selections move with and are no longer reset as you navigate between tabs. This ensures continuity in workflow and reduces repetitive actions.</p>"
+        },
+        {
+          "title": "The ‘Cleaning Hour Meter’ filter",
+          "descriptions": "<p>This filter has been removed. However, the Cleaning Hour Meter value will continue to show in the data tables.</p>"
+        },
+        {
+          "title": "Export Field and Column Order Improvements",
+          "descriptions": "<p>Field names in exported files have been updated for clarity, and column order has been realigned to match in-platform table views. These changes promote consistency between on-screen data and downloaded reports.</p>"
+        },
+        {
+          "title": "Support for Track 1101 & 1105 Devices",
+          "descriptions": "<p>The platform now works with the new Track 1101 and 1105 devices, designed for Lite machines. We've updated the system to handle these devices while still fully supporting the older Track 1100.</p>"
+        },
+        {
+          "title": "Enhanced Lite Device Status Detection",
+          "descriptions": "<p>Lite devices now check in periodically, regardless of movement. This ensures the user knows when the machine wasn't used or if it wasn't able to communicate.</p>"
         }
-    ]
+      ]
+    },
+    {
+      "title": "May 2025 Release",
+      "version": "Version 5.1",
+      "date": "May 22, 2025",
+      "summary": "Here's what's new in this release:",
+      "features": [
+        {
+          "title": "Higher Machine Count",
+          "descriptions": "<p>We now support a higher machine count, 15,000, for internal users.</p>"
+        },
+        {
+          "title": "Auto-Assignment to Telemetry Group",
+          "descriptions": "<p>Tennant Internal Dev Role users are automatically assigned access to all available telemetry machines, simplifying setup.</p>"
+        },
+        {
+          "title": "User Identification Enhancement",
+          "descriptions": "<ol type='a'><li>To improve visibility and traceability, Sold-To numbers are now appended to usernames in user attributes.</li><li>Login Screen Optimization.</li><li>Updated the login screen background image to improve load performance and reduce visual clutter.</li><li>Export Functionality Optimized.</li><li>Export operation has been enhanced for faster download.</li></ol>"
+        },
+        {
+          "title": "Fixes Provided",
+          "descriptions": "<ol type='a'><li>Fixed an issue where the average daily clean time reported over Daylight Savings Time was incorrect.</li><li>Fixed an issue where alerts and usage data remained visible in runtime graphs even after all user groups were removed.</li><li>Fixed a bug that returned a bad request when assigning more than 2050 machines to a machine group.</li><li>Resolved an issue where disabling the “Scrubbing Feature” checkbox during feature selection resulted in a bad request.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "March 2025 Release",
+      "version": "Version 5.0",
+      "date": "March 26, 2025",
+      "summary": "Here's what's new in this release:",
+      "features": [
+        {
+          "title": "Higher Machine Count",
+          "descriptions": "<p>We now support a higher machine count, 15,000, for internal users.</p>"
+        },
+        {
+          "title": "Table Row Expansion & Enhanced User Experience",
+          "descriptions": "<p>Users now have the ability to expand the numbers of items displayed per page to 64. Users are able to navigate nested tables with an improved user experience.</p>"
+        },
+        {
+          "title": "Platform Upgrade",
+          "descriptions": "<p>Upgraded User Interface and infrastructure, for improved security and performance.</p>"
+        },
+        {
+          "title": "Fixes Provided",
+          "descriptions": "<ol type='a'><li>Resolved an issue where user groups in the Admin tab displayed negative user counts.</li><li>In the Admin page, 'Select All' checkbox for Machine Attributes and User Attributes function consistently.</li><li>Fixed issues where assigning a large group, such as all telemetry machines, caused a bad request in the Overview, Runtime and Battery pages.</li><li>Fixed an issue where the runtime graph was not updating correctly after applying the machine filter.</li><li>Charge time on the Usage Page has been updated to display two decimal places.</li><li>Fixed an issue where the Usage and Runtime PDF reports intermittently failed to be delivered via email.</li><li>Fixed an issue on mobile devices which prevented seamless scrolling in the Location page when in landscape mode.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "December 2024 Release",
+      "version": "Version 4.9.0.0",
+      "date": "December 18, 2024",
+      "summary": "Here's what's new in this release:",
+      "features": [
+        {
+          "title": "Maintenance Reminders now available for Lite Devices",
+          "descriptions": "<p>Now any connected machine, including those with Lite Telemetry, can send maintenance reminders when a threshold for cleaning hours is met. Users can also export a CSV report of maintenance reminders.</p>"
+        },
+        {
+          "title": "Release Notes viewable in the Iris portal",
+          "descriptions": "<p>When there is an update to the portal, a notification will show in the menu. Click the question mark icon to navigate to the What's New tab to view details of the release.</p>"
+        },
+        {
+          "title": "Alert Notification Enhancement",
+          "descriptions": "<p>Unread or new alert notifications are now indicated by a red dot for improved visibility.</p>"
+        },
+        {
+          "title": "Fixes Provided",
+          "descriptions": "<ol type='a'><li>We fixed an issue where some sub-groups saw a blank Battery page without data. Those users can now see their data in the Battery page.</li><li>We fixed an issue where the Cleaning Hour meter was not updating for some machines.</li></ol>"
+        }
+      ]
+    }
+  ]
 }
