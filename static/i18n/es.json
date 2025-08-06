@@ -1,76 +1,112 @@
 {
-    "releaseNotes": [
-         {
-            "title": "Lanzamiento de mayo de 2025",
-            "version": "Version 5.1",
-            "date": "22 de mayo de 2025",
-            "summary": "Estas son las novedades de esta versión:",
-            "features": [
-                {
-                    "title": "Mayor número de máquinas",
-                    "descriptions": "<p>Ahora admitimos un mayor número de máquinas, 15 000, para usuarios internos.</p>"
-                },
-                {
-                    "title": "Asignación automática al grupo de telemetría",
-                    "descriptions": "<p>A los usuarios con rol de desarrollo interno de Tennant se les asigna automáticamente acceso a todas las máquinas de telemetría disponibles, lo que simplifica la configuración.</p>"
-                },
-                {
-                    "title": "Mejora de la identificación del usuario",
-                    "descriptions": "<ol type='a'><li>Para mejorar la visibilidad y la trazabilidad, los números de venta ahora se agregan a los nombres de usuario en los atributos de usuario.</li><li>Optimización de la pantalla de inicio de sesión</li><li>Se actualizó la imagen de fondo de la pantalla de inicio de sesión para mejorar el rendimiento de carga y reducir el desorden visual.</li><li>Funcionalidad de exportación optimizada.</li><li>Se ha mejorado la operación de exportación para una descarga más rápida.</li></ol>"
-                },
-                {
-                    "title": "Correcciones proporcionadas",
-                    "descriptions": "<ol type='a'><li>Se solucionó un problema en el que el tiempo de limpieza diario promedio informado durante el horario de verano era incorrecto.</li><li>Se solucionó un problema en el que las alertas y los datos de uso permanecían visibles en los gráficos de tiempo de ejecución incluso después de que se eliminaran todos los grupos de usuarios.</li><li>Se corrigió un error que devolvía una solicitud incorrecta al asignar más de 2050 máquinas a un grupo de máquinas.</li><li>Se resolvió un problema en el cual deshabilitar la casilla de verificación “Función de limpieza” durante la selección de funciones generaba una solicitud incorrecta.</li></ol>"
-                }
-            ]
+  "releaseNotes": [
+    {
+      "title": "Lanzamiento en agosto de 2025",
+      "version": "Version 5.2",
+      "date": "6 de agosto de 2025",
+      "summary": "Estas son las novedades de esta versión:",
+      "features": [
+        {
+          "title": "Nuevo filtro de «Tecnología»",
+          "descriptions": "<p>Se ha agregado un nuevo filtro de tecnología (Gen 1, Gen 2, Lite, Desconocido) en los filtros de máquina.Este atributo ahora se muestra en varias tablas y se/Users/bs00725/Downloads/whatsnew_translation/de.json incluye en los archivos de exportación de forma predeterminada.</p>"
         },
         {
-            "title": "Lanzamiento de marzo de 2025",
-            "version": "Versión 5.0",
-            "date": "26 de marzo de 2025",
-            "summary": "Estas son las novedades de esta versión:",
-            "features": [
-                {
-                    "title": "Mayor número de máquinas",
-                    "descriptions": "<p>Ahora admitimos un número mayor de máquinas (15 000) para usuarios internos.</p>"
-                },
-                {
-                    "title": "Expansión de filas de tabla y experiencia de usuario mejorada",
-                    "descriptions": "<p>Los usuarios ahora pueden ampliar el número de elementos mostrados por página a 64. Los usuarios pueden navegar por tablas anidadas con una experiencia de usuario mejorada.</p>"
-                },
-                {
-                    "title": "Actualización de la plataforma",
-                    "descriptions": "<p>Interfaz de usuario e infraestructura mejoradas para mayor seguridad y rendimiento.</p>"
-                },
-                {
-                    "title": "Correcciones proporcionadas",
-                    "descriptions": "<ol type='a'><li>Se solucionó un problema por el cual los grupos de usuarios en la pestaña Administrador mostraban un número negativo de usuarios.</li><li>En la página Administrador, la casilla 'Seleccionar todo' para Atributos de máquina y Atributos de usuario funciona correctamente.</li><li>Se solucionaron problemas por los cuales la asignación de un grupo grande, como todas las máquinas de telemetría, causaba una solicitud incorrecta en las páginas Resumen, Tiempo de ejecución y Batería.</li><li>Se solucionó un problema por el cual el gráfico de tiempo de ejecución no se actualizaba correctamente después de aplicar el filtro de máquina.</li><li>El tiempo de carga en la página de uso se ha actualizado para mostrar dos decimales.</li><li>Se actualizó la precisión del tiempo de carga en la página de Uso para mostrar dos decimales. Se solucionó un problema por el cual los informes de uso y tiempo de ejecución en PDF no se enviaban por correo electrónico de forma intermitente.</li><li>Se solucionó un problema en los dispositivos móviles que impedía el desplazamiento fluido en la página Ubicación cuando estaba en modo horizontal.</li></ol>"
-                }
-            ]
+          "title": "Grupos de filtros guardados",
+          "descriptions": "<p>Los usuarios ahora pueden guardar combinaciones de filtros personalizadas para uso repetido.Estos filtros guardados se administran independientemente de los filtros basados en la línea de tiempo y permiten un análisis más rápido y personalizado en todas las sesiones.</p>"
         },
         {
-            "title": "Lanzamiento en diciembre de 2024",
-            "version": "Versión 4.9.0.0",
-            "date": "18 de diciembre de 2024",
-            "summary": "Estas son las novedades de esta versión:",
-            "features": [
-                {
-                    "title": "Recordatorios de mantenimiento ahora disponibles para dispositivos Lite",
-                    "descriptions": "<p>Ahora, cualquier máquina conectada, incluidas aquellas con Lite Telemetry, puede enviar recordatorios de mantenimiento cuando se alcanza un umbral de horas de limpieza. Los usuarios también pueden exportar un informe CSV de los recordatorios de mantenimiento.</p>"
-                },
-                {
-                    "title": "Notas de la versión visibles en el portal Iris",
-                    "descriptions": "<p>Cuando haya una actualización del portal, aparecerá una notificación en el menú. Haga clic en el icono del signo de interrogación para navegar a la pestaña Novedades y ver los detalles de la versión.</p>"
-                },
-                {
-                    "title": "Mejora de la notificación de alertas",
-                    "descriptions": "<p>Las notificaciones de alerta nuevas o no leídas ahora se indican con un punto rojo para mejorar la visibilidad.</p>"
-                },
-                {
-                    "title": "Correcciones proporcionadas",
-                    "descriptions": "<ol type='a'><li>Solucionamos un problema por el cual algunos subgrupos veían una página de Batería en blanco sin datos. Esos usuarios ahora pueden ver sus datos en la página Batería.</li><li>Solucionamos un problema en el que el medidor de horas de limpieza no se actualizaba para algunas máquinas</li></ol>"
-                }
-            ]
+          "title": "Aplicación de filtro flexible",
+          "descriptions": "<p>Ahora los filtros se pueden aplicar en cualquier orden: ya no es necesario elegirlos de izquierda a derecha.Las selecciones de filtros se mueven y ya no se restablecen a medida que navega entre pestañas.Esto garantiza la continuidad en el flujo de trabajo y reduce las acciones repetitivas.</p>"
+        },
+        {
+          "title": "El filtro ‘Contador de horas de limpieza’",
+          "descriptions": "<p>Este filtro ha sido eliminado.Sin embargo, el valor del medidor de horas de limpieza continuará mostrándose en las tablas de datos.</p>"
+        },
+        {
+          "title": "Mejoras en el orden de los campos y columnas de exportación",
+          "descriptions": "<p>Se han actualizado los nombres de los campos en los archivos exportados para mayor claridad y se ha realineado el orden de las columnas para que coincida con las vistas de tabla en la plataforma.Estos cambios promueven la coherencia entre los datos en pantalla y los informes descargados.</p>"
+        },
+        {
+          "title": "Unterstützung für Track 1101- und 1105-Geräte",
+          "descriptions": "<p>La plataforma ahora funciona con los nuevos dispositivos Track 1101 y 1105, diseñados para máquinas Lite.Hemos actualizado el sistema para manejar estos dispositivos y al mismo tiempo mantener la compatibilidad total con el antiguo Track 1100.</p>"
+        },
+        {
+          "title": "Detección mejorada del estado del dispositivo Lite",
+          "descriptions": "<p>Los dispositivos Lite ahora se registran periódicamente, independientemente del movimiento. Esto garantiza que el usuario sepa cuándo no se utilizó la máquina o si no pudo comunicarse.</p>"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Lanzamiento de mayo de 2025",
+      "version": "Version 5.1",
+      "date": "22 de mayo de 2025",
+      "summary": "Estas son las novedades de esta versión:",
+      "features": [
+        {
+          "title": "Mayor número de máquinas",
+          "descriptions": "<p>Ahora admitimos un mayor número de máquinas, 15 000, para usuarios internos.</p>"
+        },
+        {
+          "title": "Asignación automática al grupo de telemetría",
+          "descriptions": "<p>A los usuarios con rol de desarrollo interno de Tennant se les asigna automáticamente acceso a todas las máquinas de telemetría disponibles, lo que simplifica la configuración.</p>"
+        },
+        {
+          "title": "Mejora de la identificación del usuario",
+          "descriptions": "<ol type='a'><li>Para mejorar la visibilidad y la trazabilidad, los números de venta ahora se agregan a los nombres de usuario en los atributos de usuario.</li><li>Optimización de la pantalla de inicio de sesión</li><li>Se actualizó la imagen de fondo de la pantalla de inicio de sesión para mejorar el rendimiento de carga y reducir el desorden visual.</li><li>Funcionalidad de exportación optimizada.</li><li>Se ha mejorado la operación de exportación para una descarga más rápida.</li></ol>"
+        },
+        {
+          "title": "Correcciones proporcionadas",
+          "descriptions": "<ol type='a'><li>Se solucionó un problema en el que el tiempo de limpieza diario promedio informado durante el horario de verano era incorrecto.</li><li>Se solucionó un problema en el que las alertas y los datos de uso permanecían visibles en los gráficos de tiempo de ejecución incluso después de que se eliminaran todos los grupos de usuarios.</li><li>Se corrigió un error que devolvía una solicitud incorrecta al asignar más de 2050 máquinas a un grupo de máquinas.</li><li>Se resolvió un problema en el cual deshabilitar la casilla de verificación “Función de limpieza” durante la selección de funciones generaba una solicitud incorrecta.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "Lanzamiento de marzo de 2025",
+      "version": "Versión 5.0",
+      "date": "26 de marzo de 2025",
+      "summary": "Estas son las novedades de esta versión:",
+      "features": [
+        {
+          "title": "Mayor número de máquinas",
+          "descriptions": "<p>Ahora admitimos un número mayor de máquinas (15 000) para usuarios internos.</p>"
+        },
+        {
+          "title": "Expansión de filas de tabla y experiencia de usuario mejorada",
+          "descriptions": "<p>Los usuarios ahora pueden ampliar el número de elementos mostrados por página a 64. Los usuarios pueden navegar por tablas anidadas con una experiencia de usuario mejorada.</p>"
+        },
+        {
+          "title": "Actualización de la plataforma",
+          "descriptions": "<p>Interfaz de usuario e infraestructura mejoradas para mayor seguridad y rendimiento.</p>"
+        },
+        {
+          "title": "Correcciones proporcionadas",
+          "descriptions": "<ol type='a'><li>Se solucionó un problema por el cual los grupos de usuarios en la pestaña Administrador mostraban un número negativo de usuarios.</li><li>En la página Administrador, la casilla 'Seleccionar todo' para Atributos de máquina y Atributos de usuario funciona correctamente.</li><li>Se solucionaron problemas por los cuales la asignación de un grupo grande, como todas las máquinas de telemetría, causaba una solicitud incorrecta en las páginas Resumen, Tiempo de ejecución y Batería.</li><li>Se solucionó un problema por el cual el gráfico de tiempo de ejecución no se actualizaba correctamente después de aplicar el filtro de máquina.</li><li>El tiempo de carga en la página de uso se ha actualizado para mostrar dos decimales.</li><li>Se actualizó la precisión del tiempo de carga en la página de Uso para mostrar dos decimales. Se solucionó un problema por el cual los informes de uso y tiempo de ejecución en PDF no se enviaban por correo electrónico de forma intermitente.</li><li>Se solucionó un problema en los dispositivos móviles que impedía el desplazamiento fluido en la página Ubicación cuando estaba en modo horizontal.</li></ol>"
+        }
+      ]
+    },
+    {
+      "title": "Lanzamiento en diciembre de 2024",
+      "version": "Versión 4.9.0.0",
+      "date": "18 de diciembre de 2024",
+      "summary": "Estas son las novedades de esta versión:",
+      "features": [
+        {
+          "title": "Recordatorios de mantenimiento ahora disponibles para dispositivos Lite",
+          "descriptions": "<p>Ahora, cualquier máquina conectada, incluidas aquellas con Lite Telemetry, puede enviar recordatorios de mantenimiento cuando se alcanza un umbral de horas de limpieza. Los usuarios también pueden exportar un informe CSV de los recordatorios de mantenimiento.</p>"
+        },
+        {
+          "title": "Notas de la versión visibles en el portal Iris",
+          "descriptions": "<p>Cuando haya una actualización del portal, aparecerá una notificación en el menú. Haga clic en el icono del signo de interrogación para navegar a la pestaña Novedades y ver los detalles de la versión.</p>"
+        },
+        {
+          "title": "Mejora de la notificación de alertas",
+          "descriptions": "<p>Las notificaciones de alerta nuevas o no leídas ahora se indican con un punto rojo para mejorar la visibilidad.</p>"
+        },
+        {
+          "title": "Correcciones proporcionadas",
+          "descriptions": "<ol type='a'><li>Solucionamos un problema por el cual algunos subgrupos veían una página de Batería en blanco sin datos. Esos usuarios ahora pueden ver sus datos en la página Batería.</li><li>Solucionamos un problema en el que el medidor de horas de limpieza no se actualizaba para algunas máquinas</li></ol>"
+        }
+      ]
+    }
+  ]
 }
