@@ -1,6 +1,34 @@
 {
   "releaseNotes": [
     {
+      "title": "Sortie en décembre 2025",
+      "version": "Version 5.3",
+      "date": "31 décembre 2025",
+      "summary": "Voici les nouveautés de cette version:",
+      "features": [
+        {
+          "title": "Nouvelle page d’aperçu",
+          "descriptions": "<p>La page Aperçu a bénéficié d’une refonte importante. Elle inclut désormais plusieurs indicateurs clés de performance (KPI) pour attirer l’attention sur les exceptions dans la flotte d’un utilisateur. Cliquez sur n’importe lequel des KPI pour accéder aux données qui peuvent aider à identifier les problèmes.</p>"
+        },
+        {
+          "title": "Nouvelle alerte – Objectifs de temps de nettoyage non atteints",
+          "descriptions": "<p>Fixez des objectifs de nettoyage temporels pour chaque machine individuelle ou en groupe. Ensuite, mettez en place une alerte pour savoir quand certaines machines n’atteignent pas leur objectif.</p>"
+        },
+        {
+          "title": "Nouveau filtre dans la page d’utilisation - Comportement de charge: Surveillez le traitement des batteries avec ce nouveau filtre qui inclut les options suivantes",
+          "descriptions": "<ol type='a'><li>Charge incomplète – Affiche les enregistrements où la charge n’a pas été terminée.</li><li>Charge complète – Affiche les enregistrements où la charge a été terminée.</li></ol>"
+        },
+       {
+          "title": "Nouveau filtre dans la page de localisation - Connectivité: Ce filtre permet aux utilisateurs de consulter les données en fonction de l’état de connectivité et inclut les options suivantes",
+          "descriptions": "<ol type='a'><li>Non connectées – machines qui ne transmettent aucune donnée sur le portail pendant la période sélectionnée.</li><li>Connectées – machines qui transmettent des données au moins une fois pendant la période sélectionnée.</li></ol>"
+        },
+        {
+          "title": "Corrections fournies",
+          "descriptions": "<p>Le temps de nettoyage quotidien moyen sur la page Aperçu a été vérifié et il a été confirmé que l’erreur d’exportation à l’exécution avait été résolue pour les plages de dates antérieures au 2 novembre, corrigeant ainsi le bug précédemment signalé par le client.</p>"
+        }
+      ]
+    },
+    {
       "title": "Sortie d'août 2025",
       "version": "Version 5.2",
       "date": "6 août 2025",

@@ -1,6 +1,34 @@
 {
   "releaseNotes": [
     {
+      "title": "Veröffentlichung Dezember 2025",
+      "version": "Version 5.3",
+      "date": "31. Dezember 2025",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
+        {
+          "title": "Neue Übersichtsseite",
+          "descriptions": "<p>Die Übersichtsseite wurde umfassend überarbeitet. Sie enthält nun mehrere Key Performance Indicators (KPIs), um auf Ausnahmen in der Nutzerflotte aufmerksam zu machen. Klicken Sie auf einen der KPIs, um zu Daten zu gelangen, die bei der Identifizierung von Problemen helfen können.</p>"
+        },
+        {
+          "title": "Neuer Alarm – Reinigungszeit-Ziele nicht erreicht",
+          "descriptions": "<p>Setzen Sie zeitbasierte Reinigungsziele für einzelne oder Gruppen von Geräten. Dann richten Sie einen Alarm ein, um zu erfahren, wenn bestimmte Maschinen ihr Ziel nicht erreichen.</p>"
+        },
+        {
+          "title": "Neuer Filter auf der Nutzungsseite – Ladeverhalten: Beobachten Sie, wie die Batterien mit diesem neuen Filter behandelt werden, der die folgenden Optionen enthält",
+          "descriptions": "<ol type='a'><li>Unvollständige Ladung – Zeigt Aufzeichnungen an, bei denen das Laden nicht abgeschlossen wurde.</li><li>Vollständige Ladung – Zeigt Aufzeichnungen an, bei denen das Laden abgeschlossen wurde.</li></ol>"
+        },
+       {
+          "title": "Neuer Filter auf der Standortseite – Konnektivität: Dieser Filter ermöglicht es den Nutzern, Daten basierend auf dem Konnektivitätsstatus einzusehen und beinhaltet folgende Optionen",
+          "descriptions": "<ol type='a'><li>Nicht meldend – Maschinen, die mindestens einmal im gewählten Zeitraum (Tag, Woche, Monat usw.) nicht melden (Daten ins Portal hochladen).</li><li>Meldend – Maschinen, die mindestens einmal im gewählten Zeitraum melden.</li></ol>"
+        },
+        {
+          "title": "Behobene Probleme",
+          "descriptions": "<p>Die durchschnittliche tägliche Reinigungszeit auf der Übersichtsseite wurde überprüft und es wurde bestätigt, dass der Laufzeit-Exportfehler für Datumsbereiche vor dem 2. November behoben wurde, womit der zuvor vom Kunden gemeldete Fehler beseitigt ist.</p>"
+        }
+      ]
+    },
+    {
       "title": "Version August 2025",
       "version": "Version 5.2",
       "date": "6. August 2025",

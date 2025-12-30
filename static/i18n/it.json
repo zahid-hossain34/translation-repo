@@ -1,6 +1,34 @@
 {
   "releaseNotes": [
     {
+      "title": "Pubblicazione dicembre 2025",
+      "version": "Version 5.3",
+      "date": "31 dicembre 2025",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Nuova pagina panoramica",
+          "descriptions": "<p>La pagina Panoramica ha subito una significativa riprogettazione. Ora include diversi indicatori chiave di prestazione (KPI) per aiutare a richiamare l'attenzione sulle eccezioni nella flotta di un utente. Clicca su uno qualsiasi dei KPI per visualizzare i dati che possono aiutare a identificare i problemi.</p>"
+        },
+        {
+          "title": "Nuovo avviso – Obiettivi di tempo di pulizia non raggiunti",
+          "descriptions": "<p>Stabilisci obiettivi di pulizia basati sul tempo per singole macchine o gruppi di macchine. Poi imposta un avviso per sapere quando certe macchine non raggiungono il loro obiettivo.</p>"
+        },
+        {
+          "title": "Nuovo filtro nella pagina di utilizzo – Comportamento di ricarica: Tieni d'occhio come vengono trattate le batterie con questo nuovo filtro, che include le seguenti opzioni",
+          "descriptions": "<ol type='a'><li>Carica incompleta – Mostra i registri in cui la carica non è stata completata.</li><li> Carica completa – Visualizza i registri in cui la carica è stata completata.</li></ol>"
+        },
+       {
+          "title": "Nuovo filtro nella pagina Località – Connettività: Questo filtro permette agli utenti di visualizzare i dati in base allo stato di connettività e include le seguenti opzioni",
+          "descriptions": "<ol type='a'><li>Non comunicanti – macchine che non inviano dati al portale nel periodo selezionato.</li><li>Comunicanti – macchine che inviano dati al portale almeno una volta nel periodo selezionato.</li></ol>"
+        },
+        {
+          "title": "Problemi risolti",
+          "descriptions": "<p>È stato verificato il tempo medio di pulizia giornaliero sulla pagina Panoramica ed è stato confermato che l’errore di esportazione durante l’esecuzione è stato risolto per le date antecedenti il 2 novembre, risolvendo il bug precedentemente segnalato dal cliente.</p>"
+        }
+      ]
+    },
+    {
       "title": "Rilascio di agosto 2025",
       "version": "Version 5.2",
       "date": "6 agosto 2025",

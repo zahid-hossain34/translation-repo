@@ -1,8 +1,36 @@
 {
   "releaseNotes": [
     {
+      "title": "Lanzamiento en diciembre de 2025",
+      "version": "Versión 5.3",
+      "date": "31 de diciembre de 2025",
+      "summary": "Estas son las novedades de esta versión:",
+      "features": [
+        {
+          "title": "Nueva página de resumen",
+          "descriptions": "<p>La página de Resumen ha recibido un rediseño significativo. Ahora incluye varios indicadores clave de rendimiento (KPIs) para ayudar a llamar la atención sobre las excepciones en la flota de un usuario. Haz clic en cualquiera de los KPI para acceder a datos que pueden ayudar a identificar problemas.</p>"
+        },
+        {
+          "title": "Nueva alerta – No alcanzar los objetivos de tiempo de limpieza",
+          "descriptions": "<p>Establece objetivos de limpieza basados en el tiempo para máquinas individuales o en grupos. Luego configura una alerta para saber cuándo ciertas máquinas no alcanzan su objetivo.</p>"
+        },
+        {
+          "title": "Nuevo filtro en la página de Uso - Comportamiento de carga: Estate atento a cómo se tratan las baterías con este nuevo filtro, que incluye las siguientes opciones",
+          "descriptions": "<ol type='a'><li>Carga incompleta – Muestra registros en los que la carga no se completó.</li><li>Carga completa – Muestra los registros en los que se completó la carga.</li></ol>"
+        },
+       {
+          "title": "Nuevo filtro en la página de Ubicación - Conectividad: Este filtro permite a los usuarios ver datos basados en el estado de conectividad e incluye las siguientes opciones",
+          "descriptions": "<ol type='a'><li>Sin reporte: máquinas que no están enviando datos al portal al menos una vez en el periodo seleccionado.</li><li>Con reporte: máquinas que envían datos al portal al menos una vez en el periodo seleccionado.</li></ol>"
+        },
+        {
+          "title": "Problemas solucionados",
+          "descriptions": "<p>Se verificó el tiempo medio diario de limpieza en la página de Resumen y se confirmó que el error de exportación en tiempo de ejecución se había resuelto para las fechas anteriores al 2 de noviembre, solucionando el error previamente reportado por el cliente.</p>"
+        }
+      ]
+    },
+    {
       "title": "Lanzamiento en agosto de 2025",
-      "version": "Version 5.2",
+      "version": "Versión 5.2",
       "date": "6 de agosto de 2025",
       "summary": "Estas son las novedades de esta versión:",
       "features": [

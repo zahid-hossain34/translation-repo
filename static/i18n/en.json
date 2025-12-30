@@ -1,6 +1,34 @@
 {
   "releaseNotes": [
     {
+      "title": "December 2025 Release",
+      "version": "Version 5.3",
+      "date": "December 31, 2025",
+      "summary": "Here's what's new in this release:",
+      "features": [
+        {
+          "title": "New Overview Page",
+          "descriptions": "<p>The Overview page has been given a significant redesign. It now includes several key performance indicators (KPIs) to help draw attention to exceptions in a user’s fleet. Click on any of the KPIs to drive down to data that can help identify problems.</p>"
+        },
+        {
+          "title": "New Alert - Not reaching clean time goals",
+          "descriptions": "<p>Set time-based cleaning goals for individual or groups of machines. Then set an alert to know when certain machines are falling short of their goal.</p>"
+        },
+        {
+          "title": "New filter in the Usage Page - Charging Behavior: Keep an eye on how batteries are being treated with this new filter which includes the following options",
+          "descriptions": "<ol type='a'><li>Incomplete Charge – Displays records where charging was not completed.</li><li>Complete Charge – Displays records where charging was completed.</li></ol>"
+        },
+       {
+          "title": "New filter in the Location Page - Connectivity: This filter allows users to view data based on connectivity status and includes the following options",
+          "descriptions": "<ol type='a'><li>Non-Reporting- machines that aren’t reporting (uploading data to the portal) at least once in the time period selected (day, week, month, etc.).</li><li>Reporting- machines that are reporting at least once in the time period selected.</li></ol>"
+        },
+        {
+          "title": "Fixes Provided",
+          "descriptions": "<p>Verified the average daily clean time on the Overview page and confirmed that the runtime export error was resolved for date ranges prior to November 2nd, addressing the previously customer-reported bug.</p>"
+        }
+      ]
+    },
+    {
       "title": "August 2025 Release",
       "version": "Version 5.2",
       "date": "August 6, 2025",
