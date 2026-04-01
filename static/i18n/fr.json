@@ -12,7 +12,7 @@
         },
         {
           "title": "Mise à niveau de la plateforme",
-          "descriptions": "<p>La plateforme a été mise à niveau vers une version plus récente de l'espace de travail Angular, passant de la v19 à la v21.x, et vers une version plus récente de Node.js, passant de la v20 à la v22, afin d'améliorer les performances, la stabilité, la sécurité et la fiabilité à long terme.</p>"
+          "descriptions": "<p>Une mise à niveau vers les dernières versions d'Angular et de Node.js afin d'améliorer les performances, la stabilité, la sécurité et la fiabilité à long terme.</p>"
         },
         {
           "title": "Navigation améliorée pour les paramètres d'alerte",
