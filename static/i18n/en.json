@@ -1,6 +1,30 @@
 {
   "releaseNotes": [
     {
+      "title": "April 2026 Release",
+      "version": "Version 6.0",
+      "date": "April 1, 2026",
+      "summary": "Here's what's new in this release:",
+      "features": [
+        {
+          "title": "Battery Page Mobile & Tablet Support",
+          "descriptions": "<p>The Battery page is now fully usable on mobile and tablet devices, making it easy to access from any screen.</p>"
+        },
+        {
+          "title": "Platform Upgrade",
+          "descriptions": "<p>The platform has been upgraded to a newer version to improve performance, stability, security, and long-term reliability.</p>"
+        },
+        {
+          "title": "Improved Navigation for Alert Settings",
+          "descriptions": "<p>Direct navigation to settings is now available from alert-related sections, making configuration quicker and easier.</p>"
+        },
+        {
+          "title": "Fixes Provided",
+          "descriptions": "<ol type='a'><li>Fixed an issue where service request start and completion times were not matching correctly.</li><li>Resolved a problem where some user details were not updating correctly under certain conditions.</li><li>Fixed an issue where Clean Time was shown as ìNo Dataî on daylight saving (DST) change dates.It will now correctly show 0 when the device has reported but has no usage.</li></ol>"
+        }
+      ]
+    },
+    {
       "title": "January 2026 Release",
       "version": "Version 5.3",
       "date": "January 15, 2026",

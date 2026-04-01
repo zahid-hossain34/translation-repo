@@ -1,5 +1,29 @@
 {
   "releaseNotes": [
+     {
+      "title": "Veröffentlichung im April 2026",
+      "version": "Version 6.0",
+      "date": "1. April 2026",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
+        {
+          "title": "Akku-Seite Unterstützung für Mobilgeräte und Tablets",
+          "descriptions": "<p>Die Akku-Seite ist jetzt vollständig auf Mobilgeräten und Tablets nutzbar und somit von jedem Bildschirm aus leicht zugänglich.</p>"
+        },
+        {
+          "title": "Plattform-Upgrade",
+          "descriptions": "<p>Die Plattform wurde auf eine neuere Version aktualisiert, um Leistung, Stabilität, Sicherheit und langfristige Zuverlässigkeit zu verbessern.</p>"
+        },
+        {
+          "title": "Verbesserte Navigation für Benachrichtigungseinstellungen",
+          "descriptions": "<p>Die direkte Navigation zu den Einstellungen ist nun über die Abschnitte mit Alarmbezug möglich, was die Konfiguration schneller und einfacher macht.</p>"
+        },
+        {
+          "title": "Behobene Probleme",
+          "descriptions": "<ol type='a'><li>Es wurde ein Problem behoben, bei dem die Start- und Abschlusszeiten von Serviceanfragen nicht korrekt übereinstimmten.</li><li>Es wurde ein Problem behoben, bei dem einige Benutzerdaten unter bestimmten Bedingungen nicht korrekt aktualisiert wurden.</li><li>Es wurde ein Fehler behoben, durch den die Nutzungsdauer an Tagen der Sommerzeitumstellung als „Keine Daten“ angezeigt wurde. Nun wird korrekt 0 angezeigt, wenn das Gerät zwar Daten gemeldet hat, aber keine Nutzung stattgefunden hat.</li></ol>"
+        }
+      ]
+    },
     {
       "title": "Veröffentlichung im Januar 2026",
       "version": "Version 5.3",

@@ -1,6 +1,30 @@
 {
   "releaseNotes": [
     {
+      "title": "Uscita prevista per aprile 2026",
+      "version": "Versione 6.0",
+      "date": "1° aprile 2026",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Pagina sulla batteria Supporto per dispositivi mobili e tablet",
+          "descriptions": "<p>La pagina relativa alla batteria è ora completamente fruibile su dispositivi mobili e tablet, consentendo un facile accesso da qualsiasi schermo.</p>"
+        },
+        {
+          "title": "Aggiornamento della piattaforma",
+          "descriptions": "<p>La piattaforma è stata aggiornata a una versione più recente per migliorarne le prestazioni, la stabilità, la sicurezza e l'affidabilità a lungo termine.</p>"
+        },
+        {
+          "title": "Navigazione migliorata per le impostazioni degli avvisi",
+          "descriptions": "<p>Ora è possibile accedere direttamente alle impostazioni dalle sezioni relative agli avvisi, rendendo la configurazione più rapida e semplice.</p>"
+        },
+        {
+          "title": "Problemi risolti",
+          "descriptions": "<ol type='a'><li>Risolto un problema per cui gli orari di inizio e fine delle richieste di servizio non corrispondevano correttamente.</li><li>Risolto un problema per cui alcuni dati utente non venivano aggiornati correttamente in determinate condizioni.</li><li>Risolto un problema per cui il tempo di pulizia veniva visualizzato come 'Nessun dato' nei giorni di cambio dell'ora legale. Ora verrà visualizzato correttamente 0 quando il dispositivo ha segnalato un utilizzo ma non ha registrato alcun utilizzo.</li></ol>"
+        }
+      ]
+    },
+    {
       "title": "Rilascio di gennaio 2026",
       "version": "Version 5.3",
       "date": "15 gennaio 2026",

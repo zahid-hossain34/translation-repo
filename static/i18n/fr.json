@@ -1,6 +1,30 @@
 {
   "releaseNotes": [
     {
+      "title": "Sortie prévue en avril 2026",
+      "version": "Version 6.0",
+      "date": "1er avril 2026",
+      "summary": "Voici les nouveautés de cette version:",
+      "features": [
+        {
+          "title": "Page Batterie Assistance pour mobiles et tablettes",
+          "descriptions": "<p>La page Batterie est désormais entièrement utilisable sur les appareils mobiles et tablettes, ce qui la rend facilement accessible depuis n'importe quel écran.</p>"
+        },
+        {
+          "title": "Mise à niveau de la plateforme",
+          "descriptions": "<p>La plateforme a été mise à niveau vers une version plus récente afin d'améliorer ses performances, sa stabilité, sa sécurité et sa fiabilité à long terme.</p>"
+        },
+        {
+          "title": "Navigation améliorée pour les paramètres d'alerte",
+          "descriptions": "<p>L'accès direct aux paramètres est désormais possible depuis les sections relatives aux alertes, ce qui rend la configuration plus rapide et plus facile.</p>"
+        },
+        {
+          "title": "Corrections fournies",
+          "descriptions": "<ol type='a'><li>Correction d'un problème où les heures de début et de fin des requêtes de service ne correspondaient pas correctement.</li><li>Résolution d'un problème où certaines informations utilisateur ne se mettaient pas à jour correctement dans certaines conditions.</li><li>Correction d'un problème où la durée de nettoyage s'affichait comme « Aucune donnée » lors des changements d'heure d'été. Elle affichera désormais correctement 0 lorsque l'appareil a transmis des données mais n'a enregistré aucune utilisation.</li></ol>"
+        }
+      ]
+    },
+    {
       "title": "Sortie prévue en janvier 2026",
       "version": "Version 5.3",
       "date": "15 janvier 2026",
