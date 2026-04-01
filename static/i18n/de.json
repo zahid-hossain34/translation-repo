@@ -12,7 +12,7 @@
         },
         {
           "title": "Plattform-Upgrade",
-          "descriptions": "<p>Die Plattform wurde auf eine neuere Version des Angular-Workspace von v19 auf v21.x und auf eine neuere Node.js-Version von v20 auf v22 aktualisiert, um Leistung, Stabilität, Sicherheit und langfristige Zuverlässigkeit zu verbessern.</p>"
+          "descriptions": "<p>Ein Upgrade auf die neuesten Versionen von Angular und Node.js zur Verbesserung von Leistung, Stabilität, Sicherheit und langfristiger Zuverlässigkeit.</p>"
         },
         {
           "title": "Verbesserte Navigation für Benachrichtigungseinstellungen",
