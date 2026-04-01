@@ -8,11 +8,11 @@
       "features": [
         {
           "title": "Battery Page Mobile & Tablet Support",
-          "descriptions": "<p>The Battery page is now fully usable on mobile and tablet devices, making it easy to access from any screen.</p>"
+          "descriptions": "<p>The Battery page is now compatible with mobile and tablet devices, making it easy to access from any screen.</p>"
         },
         {
           "title": "Platform Upgrade",
-          "descriptions": "<p>The platform has been upgraded to a newer version to improve performance, stability, security, and long-term reliability.</p>"
+          "descriptions": "<p>The platform has been upgraded to a newer version Angular workspace from v19 to v21.x and Node.js version from v20 to v22 to improve performance, stability, security, and long-term reliability.</p>"
         },
         {
           "title": "Improved Navigation for Alert Settings",

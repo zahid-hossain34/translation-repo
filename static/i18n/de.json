@@ -8,11 +8,11 @@
       "features": [
         {
           "title": "Akku-Seite Unterstützung für Mobilgeräte und Tablets",
-          "descriptions": "<p>Die Akku-Seite ist jetzt vollständig auf Mobilgeräten und Tablets nutzbar und somit von jedem Bildschirm aus leicht zugänglich.</p>"
+          "descriptions": "<p>Die Akku-Seite ist jetzt mit Mobiltelefonen und Tablets kompatibel und somit von jedem Bildschirm aus leicht zugänglich.</p>"
         },
         {
           "title": "Plattform-Upgrade",
-          "descriptions": "<p>Die Plattform wurde auf eine neuere Version aktualisiert, um Leistung, Stabilität, Sicherheit und langfristige Zuverlässigkeit zu verbessern.</p>"
+          "descriptions": "<p>Die Plattform wurde auf eine neuere Version des Angular-Workspace von v19 auf v21.x und auf eine neuere Node.js-Version von v20 auf v22 aktualisiert, um Leistung, Stabilität, Sicherheit und langfristige Zuverlässigkeit zu verbessern.</p>"
         },
         {
           "title": "Verbesserte Navigation für Benachrichtigungseinstellungen",

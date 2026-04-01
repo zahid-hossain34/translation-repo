@@ -8,11 +8,11 @@
       "features": [
         {
           "title": "Página de la batería Soporte para móviles y tabletas",
-          "descriptions": "<p>La página de la batería ahora se puede usar completamente en dispositivos móviles y tabletas, lo que facilita el acceso desde cualquier pantalla.</p>"
+          "descriptions": "<p>La página de la batería ahora es compatible con dispositivos móviles y tabletas, lo que facilita el acceso desde cualquier pantalla.</p>"
         },
         {
           "title": "Actualización de la plataforma",
-          "descriptions": "<p>La plataforma se ha actualizado a una versión más reciente para mejorar el rendimiento, la estabilidad, la seguridad y la fiabilidad a largo plazo.</p>"
+          "descriptions": "<p>La plataforma se ha actualizado a una versión más reciente del espacio de trabajo de Angular, pasando de la v19 a la v21.x, y de la versión de Node.js, de la v20 a la v22, para mejorar el rendimiento, la estabilidad, la seguridad y la fiabilidad a largo plazo.</p>"
         },
         {
           "title": "Navegación mejorada para la configuración de alertas",

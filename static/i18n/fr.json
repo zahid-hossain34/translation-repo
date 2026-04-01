@@ -8,11 +8,11 @@
       "features": [
         {
           "title": "Page Batterie Assistance pour mobiles et tablettes",
-          "descriptions": "<p>La page Batterie est désormais entièrement utilisable sur les appareils mobiles et tablettes, ce qui la rend facilement accessible depuis n'importe quel écran.</p>"
+          "descriptions": "<p>La page Batterie est désormais compatible avec les appareils mobiles et les tablettes, ce qui la rend facilement accessible depuis n'importe quel écran.</p>"
         },
         {
           "title": "Mise à niveau de la plateforme",
-          "descriptions": "<p>La plateforme a été mise à niveau vers une version plus récente afin d'améliorer ses performances, sa stabilité, sa sécurité et sa fiabilité à long terme.</p>"
+          "descriptions": "<p>La plateforme a été mise à niveau vers une version plus récente de l'espace de travail Angular, passant de la v19 à la v21.x, et vers une version plus récente de Node.js, passant de la v20 à la v22, afin d'améliorer les performances, la stabilité, la sécurité et la fiabilité à long terme.</p>"
         },
         {
           "title": "Navigation améliorée pour les paramètres d'alerte",
