@@ -1,5 +1,29 @@
 {
   "releaseNotes": [
+     {
+      "title": "Sortie prévue en juin 2026",
+      "version": "Version 6.1",
+      "date": "8 juin 2026",
+      "summary": "Voici les nouveautés de cette version:",
+      "features": [
+        {
+          "title": "Page du centre technique Assistance pour mobiles et tablettes",
+          "descriptions": "<p>Nous sommes heureux de vous présenter Tech Hub, une nouvelle page du portail conçue pour l'équipe de maintenance. Tech Hub regroupe toutes les informations nécessaires à la maintenance d'une machine. Voici quelques-unes des fonctionnalités de Tech Hub</p>"
+        },
+        {
+          "title": "Informations sur le service machine",
+          "descriptions": "<p>Explorez l'historique d'entretien d'une machine et accédez aux notes de maintenance, aux détails de l'entretien et aux informations sur les pièces, le tout au même endroit.</p>"
+        },
+        {
+          "title": "Filtrer les enregistrements de service :",
+          "descriptions": "<p>Trouver les informations de service pertinentes est désormais plus facile grâce aux filtres par ID de demande, ID de tâche et statut de la demande. Consultez l'historique complet des interventions sur une machine ou filtrez pour afficher une tâche spécifique. Les prochaines versions proposeront des filtres enregistrés pour un accès plus rapide aux vues fréquemment utilisées.</p>"
+        },
+        {
+          "title": "Suivre les tâches ouvertes assignées",
+          "descriptions": "<p>Filtrez toutes les tâches ouvertes par statut pour suivre rapidement leur progression et mettre en évidence les priorités principales.</p>"
+        }
+      ]
+    },
     {
       "title": "Sortie prévue en avril 2026",
       "version": "Version 6.0",
