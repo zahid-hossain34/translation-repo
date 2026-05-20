@@ -1,5 +1,29 @@
 {
   "releaseNotes": [
+     {
+      "title": "Uscita prevista a giugno 2026",
+      "version": "Versione 6.1",
+      "date": "8 giugno 2026",
+      "summary": "Ecco le novità di questa versione:",
+      "features": [
+        {
+          "title": "Pagina Tech Hub - Supporto per dispositivi mobili e tablet",
+          "descriptions": "<p>Siamo lieti di presentare Tech Hub, una nuova pagina del portale pensata appositamente per il team di assistenza. Tech Hub raccoglie in un unico luogo tutte le informazioni necessarie per la manutenzione di una macchina. Ecco alcune delle funzionalità di Tech Hub:</p>"
+        },
+        {
+          "title": "Approfondimenti sulla manutenzione delle macchine",
+          "descriptions": "<p>Esplora la cronologia degli interventi di manutenzione di una macchina, accedendo a note sulle attività, dettagli generali e informazioni sui ricambi, tutto in un unico posto.</p>"
+        },
+        {
+          "title": "Filtra i record di servizio",
+          "descriptions": "<p>Trovare le informazioni di assistenza desiderate è ora più semplice grazie ai filtri per ID richiesta, ID attività e stato della richiesta. È possibile cercare nell'intera cronologia di assistenza di una macchina o filtrare i risultati per visualizzare un'attività specifica. Le fasi future introdurranno i filtri salvati per un accesso più rapido alle visualizzazioni utilizzate più frequentemente.</p>"
+        },
+        {
+          "title": "Monitorare le attività aperte assegnate",
+          "descriptions": "<p>Filtra tutte le attività aperte in base allo stato per monitorare rapidamente i progressi ed evidenziare le priorità principali.</p>"
+        }
+      ]
+    },
     {
       "title": "Uscita prevista per aprile 2026",
       "version": "Versione 6.0",
