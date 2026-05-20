@@ -1,5 +1,29 @@
 {
-  "releaseNotes": [
+  "releaseNotes": [ 
+     {
+      "title": "June 2026 Release",
+      "version": "Version 6.1",
+      "date": "June 8, 2026",
+      "summary": "Here's what's new in this release:",
+      "features": [
+        {
+          "title": "Tech Hub Page Mobile & Tablet Support",
+          "descriptions": "<p>We are pleased to introduce Tech Hub, a new page in the portal designed with the Service team in mind. The Tech Hub provides all the information needed to service a machine in one place.</p>"
+        },
+        {
+          "title": "Machine Service Insights",
+          "descriptions": "<p>Explore a machine's service history with access to task notes, overview details, and parts information all in one place.</p>"
+        },
+        {
+          "title": "Filter Service Records",
+          "descriptions": "<p>Finding the right service information is now easier with filters for Request ID, Task ID, and Request Status. Search a machine's complete service history, or filter down to a specific task. Future phases will introduce saved filters for quicker access to frequently used views.</p>"
+        },
+        {
+          "title": "Track Assigned Open Tasks",
+          "descriptions": "<p>Filter all open tasks by status to quickly track progress and highlight top priorities.</p>"
+        }
+      ]
+    },
     {
       "title": "April 2026 Release",
       "version": "Version 6.0",
