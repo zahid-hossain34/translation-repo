@@ -1,5 +1,29 @@
 {
   "releaseNotes": [
+         {
+      "title": "Veröffentlichung im Juni 2026",
+      "version": "Version 6.1",
+      "date": "8. Juni 2026",
+      "summary": "Dies sind die Neuerungen in dieser Version:",
+      "features": [
+        {
+          "title": "Tech Hub-Seite – Unterstützung für Mobilgeräte und Tablets",
+          "descriptions": "<p>Wir freuen uns, Ihnen den Tech Hub vorzustellen, eine neue Seite im Portal, die speziell für unser Serviceteam entwickelt wurde. Der Tech Hub bietet alle Informationen, die für die Wartung einer Maschine benötigt werden, an einem zentralen Ort. Hier einige der Funktionen des Tech Hubs:</p>"
+        },
+        {
+          "title": "Einblicke in den Maschinenservice",
+          "descriptions": "<p>Erkunden Sie die Servicehistorie einer Maschine mit Zugriff auf Aufgabennotizen, Übersichtsdetails und Teileinformationen – alles an einem Ort.</p>"
+        },
+        {
+          "title": "Service-Datensätze filtern",
+          "descriptions": "<p>Die Suche nach den richtigen Serviceinformationen ist dank Filtern für Anforderungs-ID, Aufgaben-ID und Anforderungsstatus jetzt einfacher. Durchsuchen Sie die gesamte Servicehistorie eines Rechners oder filtern Sie nach einer bestimmten Aufgabe. In zukünftigen Phasen werden gespeicherte Filter für einen schnelleren Zugriff auf häufig verwendete Ansichten eingeführt.</p>"
+        },
+        {
+          "title": "Zugewiesene offene Aufgaben verfolgen",
+          "descriptions": "<p>Filtern Sie alle offenen Aufgaben nach Status, um den Fortschritt schnell zu verfolgen und die wichtigsten Prioritäten hervorzuheben.</p>"
+        }
+      ]
+    },
      {
       "title": "Veröffentlichung im April 2026",
       "version": "Version 6.0",
